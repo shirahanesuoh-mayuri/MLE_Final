@@ -1,2 +1,0 @@
-这个agent实现4.1的寻路功能
-启动命令 python main.py play --agent my_agent_collector --scenoario coin-heaven
