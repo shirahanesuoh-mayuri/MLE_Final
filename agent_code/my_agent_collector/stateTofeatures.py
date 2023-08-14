@@ -15,13 +15,31 @@ def state_to_features(game_state: dict) -> np.array:
     :return: np.array
     """
     # This is the dict before the game begins and after it ends
+
     if game_state is None:
         return None
 
     # For example, you could construct several channels of equal shape, ...
-    channels = []
-    channels.append(...)
-    # concatenate them as a feature tensor (they must have the same shape), ...
-    stacked_channels = np.stack(channels)
-    # and return them as a vector
-    return stacked_channels.reshape(-1)
+    (x_self, y_self) = game_state["self"][3]
+    #feature_matrix_shape = game_state["field"].shape
+    walls = game_state["field"]
+
+    #coin_map =  np.zeros(feature_matrix_shape)
+    for (x, y) in game_state["coins"]:
+        walls[x, y] = 100
+
+    field_matrix = np.copy(walls)
+    up_situation = field_matrix[x_self, y_self-1]
+    down_situation = field_matrix[x_self, y_self+1]
+    left_situation = field_matrix[x_self-1, y_self]
+    right_situation = field_matrix[x_self+1, y_self]
+
+
+    coin_feature = np.array(([up_situation, down_situation, left_situation, right_situation]))
+
+    return coin_feature
+
+
+
+
+

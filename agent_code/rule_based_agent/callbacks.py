@@ -134,6 +134,7 @@ def act(self, game_state):
     if (bombs_left > 0) and (x, y) not in self.bomb_history: valid_actions.append('BOMB')
     self.logger.debug(f'Valid actions: {valid_actions}')
 
+
     # Collect basic action proposals in a queue
     # Later on, the last added action that is also valid will be chosen
     action_ideas = ['UP', 'DOWN', 'LEFT', 'RIGHT']
