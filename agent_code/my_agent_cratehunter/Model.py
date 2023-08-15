@@ -47,11 +47,25 @@ class DQN(nn.Module):
         return x
     def train_step(self, old_state, action, new_state, reward):
         if action is not None:
+            # action_mask = T.zeros(len(ACTIONS), dtype=T.int64)
+            # action_mask[ACTIONS.index(action)] = 1
+
             state_action_value = self.forward(old_state).unsqueeze(0)
+
+            # next_state_action_value = self.forward(new_state).max().unsqueeze(0)
+            # expected_state_action_value = (next_state_action_value * self.gamma) + reward
             target = T.tensor(ACTIONS.index(act_rule(old_state)), dtype=T.long).unsqueeze(0)
+            # print(f"target: {target}")
+            # print(f"state_action_value: {state_action_value}")
             loss = self.loss(state_action_value, target)
+            # loss = self.loss(state_action_value.to(self.device), expected_state_action_value.to(self.device))
             with open("loss_log.txt", "a") as loss_log:
                 loss_log.write(str(loss.item()) + "\t")
             self.optimizer.zero_grad()
             loss.backward()
             self.optimizer.step()
+
+
+class Double_Q_Net(nn.Module):
+    def __init__(self, featuren_in, output):
+        super(Double_Q_Net, self).__init__()

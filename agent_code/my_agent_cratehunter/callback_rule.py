@@ -201,8 +201,7 @@ def act_rule(game_state):
         a = action_ideas.pop()
         if a in valid_actions:
             # Keep track of chosen action for cycle detection
-            if a == 'BOMB':
-                #self.bomb_history.append((x, y))
-                continue
+            #if a == 'BOMB':
+            #    self.bomb_history.append((x, y))
 
             return a

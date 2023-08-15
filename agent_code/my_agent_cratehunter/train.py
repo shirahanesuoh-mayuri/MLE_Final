@@ -1,5 +1,5 @@
 from collections import namedtuple, deque
-
+import numpy as np
 import pickle
 from typing import List
 
@@ -16,6 +16,7 @@ RECORD_ENEMY_TRANSITIONS = 1.0  # record enemy transitions with probability ...
 
 # Events
 PLACEHOLDER_EVENT = "PLACEHOLDER"
+BOMBAVOID = "BOMBAVOID"
 
 
 def setup_training(self):
@@ -51,8 +52,7 @@ def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_
     self.logger.debug(f'Encountered game event(s) {", ".join(map(repr, events))} in step {new_game_state["step"]}')
 
     # Idea: Add your own events to hand out rewards
-    if old_game_state["self"][1] == new_game_state["self"][1]:
-        events.append(PLACEHOLDER_EVENT)
+
     self.model.train_step(old_game_state, self_action, new_game_state, reward_from_events(self, events))
 
     # state_to_features is defined in callbacks.py
@@ -88,17 +88,20 @@ def reward_from_events(self, events: List[str]) -> int:
     certain behavior.
     """
     game_rewards = {
-        e.COIN_COLLECTED: 15,
-
+        e.COIN_COLLECTED: 10,
+        e.COIN_FOUND: 5,
+        e.BOMB_DROPPED: 5,
+        e.KILLED_SELF: -20,
+        e.BOMBAVOID: 15,
         #e.KILLED_OPPONENT: 5,
-        PLACEHOLDER_EVENT: -10,  # idea: the custom event is bad
+        PLACEHOLDER_EVENT: -10,
         e.MOVED_UP: 0.5,
         e.MOVED_DOWN: 0.5,
         e.MOVED_LEFT: 0.5,
         e.MOVED_RIGHT: 0.5,
-        e.INVALID_ACTION: -10,
-        e.WAITED: -5,
-
+        e.INVALID_ACTION: -15,
+        e.WAITED: 0,
+        e.SURVIVED_ROUND: 50
         #e.CRATE_DESTROYED:
     }
     reward_sum = 0
