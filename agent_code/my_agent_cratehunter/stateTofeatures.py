@@ -18,32 +18,56 @@ def state_to_features(game_state: dict) -> np.array:
 
     if game_state is None:
         return None
-
+    count_down = -1
     # For example, you could construct several channels of equal shape, ...
     _, _, bombholder, (x_self, y_self) = game_state["self"]
-
-    if bombholder == 0:
-        (x_bomb, y_bomb) = game_state["bombs"][0]
-    #feature_matrix_shape = game_state["field"].shape
+    feature_matrix_shape = game_state["field"].shape
     walls = game_state["field"]
+    explosion = np.zeros(feature_matrix_shape)
+
 
 
     #coin_map =  np.zeros(feature_matrix_shape)
+    if bombholder == 0:
+        for (x, y), c in game_state["bombs"]:
+            count_down = c
+            walls[x, y] = -50
+        if count_down in range(0, 4):
+            for (x, y), c in game_state["bombs"]:
+                for i in range(1, 4):
+                    if walls[x-i, y] == -1:
+                        break
+                    walls[x-i, y] = -25-30/(c+2)
+                for i in range(1, 4):
+                    if walls[x, y-i] == -1:
+                        break
+                    walls[x, y-i] = -25-30/(c+2)
+                for i in range(1, 4):
+                    if walls[x, y+i] == -1:
+                        break
+                    walls[x, y+i] = -25-30/(c+2)
+                for i in range(1, 4):
+                    if walls[x+i, y] == -1:
+                        break
+                    walls[x+i, y] = -25-30/(c+2)
     for (x, y) in game_state["coins"]:
         walls[x, y] = 100
-    for (x, y) in game_state["bombs"]:
-        walls[x, y] = -100
-
+    print(count_down)
     field_matrix = np.copy(walls)
     up_situation = field_matrix[x_self, y_self-1]
     down_situation = field_matrix[x_self, y_self+1]
     left_situation = field_matrix[x_self-1, y_self]
     right_situation = field_matrix[x_self+1, y_self]
+    my_situation = field_matrix[x_self, y_self]
 
 
-    coin_feature = np.array(([up_situation, down_situation, left_situation, right_situation]))
+    game_feature = np.array(([up_situation, down_situation, my_situation, left_situation, right_situation,count_down]))
+    np.append(game_feature, count_down)
+    print(game_state["step"])
+    print(game_feature)
+    print(walls)
 
-    return coin_feature
+    return game_feature
 
 
 

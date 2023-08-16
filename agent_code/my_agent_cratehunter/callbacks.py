@@ -33,7 +33,7 @@ def setup(self):
     if self.train or not os.path.isfile("my-saved-model.pt"):
         self.logger.info("Setting up model from scratch.")
         #weights = np.random.rand(len(ACTIONS))
-        self.model = DQN(4, 6)
+        self.model = DQN(6, 6)
     else:
         self.logger.info("Loading model from saved state.")
         with open("my-saved-model.pt", "rb") as file:
