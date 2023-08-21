@@ -51,9 +51,8 @@ def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_
     self.logger.debug(f'Encountered game event(s) {", ".join(map(repr, events))} in step {new_game_state["step"]}')
 
     # Idea: Add your own events to hand out rewards
-    if old_game_state["self"][1] == new_game_state["self"][1]:
-        events.append(PLACEHOLDER_EVENT)
-    self.model.train_step(old_game_state, self_action, new_game_state, reward_from_events(self, events))
+    #if old_game_state["self"][1] == new_game_state["self"][1]:
+    #    events.append(PLACEHOLDER_EVENT)
 
     # state_to_features is defined in callbacks.py
     self.transitions.append(Transition(state_to_features(old_game_state), self_action, state_to_features(new_game_state), reward_from_events(self, events)))
