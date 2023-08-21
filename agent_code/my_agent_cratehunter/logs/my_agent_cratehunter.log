@@ -1,289 +1,49 @@
-2023-08-16 16:19:34,516 [my_agent_cratehunter_code] INFO: Setting up model from scratch.
-2023-08-16 16:19:34,548 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:19:34,548 [my_agent_cratehunter_code] DEBUG: step:1
-2023-08-16 16:19:34,548 [my_agent_cratehunter_code] DEBUG: action:RIGHT
-2023-08-16 16:19:34,671 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:19:34,672 [my_agent_cratehunter_code] DEBUG: step:2
-2023-08-16 16:19:34,672 [my_agent_cratehunter_code] DEBUG: action:WAIT
-2023-08-16 16:19:34,766 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:19:34,767 [my_agent_cratehunter_code] DEBUG: step:3
-2023-08-16 16:19:34,767 [my_agent_cratehunter_code] DEBUG: action:WAIT
-2023-08-16 16:19:34,871 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:19:34,871 [my_agent_cratehunter_code] DEBUG: step:4
-2023-08-16 16:19:34,871 [my_agent_cratehunter_code] DEBUG: action:WAIT
-2023-08-16 16:19:34,954 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:19:34,954 [my_agent_cratehunter_code] DEBUG: step:5
-2023-08-16 16:19:34,954 [my_agent_cratehunter_code] DEBUG: action:LEFT
-2023-08-16 16:19:35,067 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:19:35,067 [my_agent_cratehunter_code] DEBUG: step:6
-2023-08-16 16:19:35,068 [my_agent_cratehunter_code] DEBUG: action:DOWN
-2023-08-16 16:19:35,170 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:19:35,170 [my_agent_cratehunter_code] DEBUG: step:7
-2023-08-16 16:19:35,170 [my_agent_cratehunter_code] DEBUG: action:DOWN
-2023-08-16 16:19:35,256 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:19:35,256 [my_agent_cratehunter_code] DEBUG: step:8
-2023-08-16 16:19:35,256 [my_agent_cratehunter_code] DEBUG: action:RIGHT
-2023-08-16 16:19:35,377 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:19:35,377 [my_agent_cratehunter_code] DEBUG: step:9
-2023-08-16 16:19:35,378 [my_agent_cratehunter_code] DEBUG: action:BOMB
-2023-08-16 16:19:35,476 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:19:35,476 [my_agent_cratehunter_code] DEBUG: step:10
-2023-08-16 16:19:35,476 [my_agent_cratehunter_code] DEBUG: action:RIGHT
-2023-08-16 16:19:35,579 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:19:35,579 [my_agent_cratehunter_code] DEBUG: step:11
-2023-08-16 16:19:35,579 [my_agent_cratehunter_code] DEBUG: action:DOWN
-2023-08-16 16:19:35,681 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:19:35,681 [my_agent_cratehunter_code] DEBUG: step:12
-2023-08-16 16:19:35,682 [my_agent_cratehunter_code] DEBUG: action:LEFT
-2023-08-16 16:19:35,768 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:19:35,768 [my_agent_cratehunter_code] DEBUG: step:13
-2023-08-16 16:19:35,769 [my_agent_cratehunter_code] DEBUG: action:RIGHT
-2023-08-16 16:22:24,580 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:24,580 [my_agent_cratehunter_code] DEBUG: step:1
-2023-08-16 16:22:24,581 [my_agent_cratehunter_code] DEBUG: action:WAIT
-2023-08-16 16:22:24,678 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:24,678 [my_agent_cratehunter_code] DEBUG: step:2
-2023-08-16 16:22:24,678 [my_agent_cratehunter_code] DEBUG: action:BOMB
-2023-08-16 16:22:24,765 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:24,765 [my_agent_cratehunter_code] DEBUG: step:3
-2023-08-16 16:22:24,765 [my_agent_cratehunter_code] DEBUG: action:RIGHT
-2023-08-16 16:22:24,882 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:24,882 [my_agent_cratehunter_code] DEBUG: step:4
-2023-08-16 16:22:24,882 [my_agent_cratehunter_code] DEBUG: action:DOWN
-2023-08-16 16:22:24,976 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:24,977 [my_agent_cratehunter_code] DEBUG: step:5
-2023-08-16 16:22:24,977 [my_agent_cratehunter_code] DEBUG: action:DOWN
-2023-08-16 16:22:25,088 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:25,088 [my_agent_cratehunter_code] DEBUG: step:6
-2023-08-16 16:22:25,088 [my_agent_cratehunter_code] DEBUG: action:UP
-2023-08-16 16:22:26,609 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:26,609 [my_agent_cratehunter_code] DEBUG: step:1
-2023-08-16 16:22:26,609 [my_agent_cratehunter_code] DEBUG: action:DOWN
-2023-08-16 16:22:26,711 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:26,711 [my_agent_cratehunter_code] DEBUG: step:2
-2023-08-16 16:22:26,711 [my_agent_cratehunter_code] DEBUG: action:WAIT
-2023-08-16 16:22:26,807 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:26,808 [my_agent_cratehunter_code] DEBUG: step:3
-2023-08-16 16:22:26,808 [my_agent_cratehunter_code] DEBUG: action:LEFT
-2023-08-16 16:22:26,901 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:26,901 [my_agent_cratehunter_code] DEBUG: step:4
-2023-08-16 16:22:26,901 [my_agent_cratehunter_code] DEBUG: action:LEFT
-2023-08-16 16:22:27,012 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:27,012 [my_agent_cratehunter_code] DEBUG: step:5
-2023-08-16 16:22:27,012 [my_agent_cratehunter_code] DEBUG: action:LEFT
-2023-08-16 16:22:27,115 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:27,115 [my_agent_cratehunter_code] DEBUG: step:6
-2023-08-16 16:22:27,115 [my_agent_cratehunter_code] DEBUG: action:BOMB
-2023-08-16 16:22:27,204 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:27,204 [my_agent_cratehunter_code] DEBUG: step:7
-2023-08-16 16:22:27,205 [my_agent_cratehunter_code] DEBUG: action:DOWN
-2023-08-16 16:22:27,314 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:27,314 [my_agent_cratehunter_code] DEBUG: step:8
-2023-08-16 16:22:27,314 [my_agent_cratehunter_code] DEBUG: action:RIGHT
-2023-08-16 16:22:27,404 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:27,405 [my_agent_cratehunter_code] DEBUG: step:9
-2023-08-16 16:22:27,405 [my_agent_cratehunter_code] DEBUG: action:DOWN
-2023-08-16 16:22:27,518 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:27,519 [my_agent_cratehunter_code] DEBUG: step:10
-2023-08-16 16:22:27,519 [my_agent_cratehunter_code] DEBUG: action:LEFT
-2023-08-16 16:22:28,231 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:28,232 [my_agent_cratehunter_code] DEBUG: step:1
-2023-08-16 16:22:28,232 [my_agent_cratehunter_code] DEBUG: action:RIGHT
-2023-08-16 16:22:28,329 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:28,329 [my_agent_cratehunter_code] DEBUG: step:2
-2023-08-16 16:22:28,329 [my_agent_cratehunter_code] DEBUG: action:LEFT
-2023-08-16 16:22:28,426 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:28,426 [my_agent_cratehunter_code] DEBUG: step:3
-2023-08-16 16:22:28,427 [my_agent_cratehunter_code] DEBUG: action:BOMB
-2023-08-16 16:22:28,521 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:28,521 [my_agent_cratehunter_code] DEBUG: step:4
-2023-08-16 16:22:28,521 [my_agent_cratehunter_code] DEBUG: action:RIGHT
-2023-08-16 16:22:28,619 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:28,619 [my_agent_cratehunter_code] DEBUG: step:5
-2023-08-16 16:22:28,619 [my_agent_cratehunter_code] DEBUG: action:RIGHT
-2023-08-16 16:22:28,710 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:28,710 [my_agent_cratehunter_code] DEBUG: step:6
-2023-08-16 16:22:28,710 [my_agent_cratehunter_code] DEBUG: action:RIGHT
-2023-08-16 16:22:28,834 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:28,834 [my_agent_cratehunter_code] DEBUG: step:7
-2023-08-16 16:22:28,834 [my_agent_cratehunter_code] DEBUG: action:LEFT
-2023-08-16 16:22:29,544 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:29,544 [my_agent_cratehunter_code] DEBUG: step:1
-2023-08-16 16:22:29,544 [my_agent_cratehunter_code] DEBUG: action:LEFT
-2023-08-16 16:22:29,646 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:29,647 [my_agent_cratehunter_code] DEBUG: step:2
-2023-08-16 16:22:29,647 [my_agent_cratehunter_code] DEBUG: action:WAIT
-2023-08-16 16:22:29,743 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:29,744 [my_agent_cratehunter_code] DEBUG: step:3
-2023-08-16 16:22:29,744 [my_agent_cratehunter_code] DEBUG: action:LEFT
-2023-08-16 16:22:29,848 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:29,849 [my_agent_cratehunter_code] DEBUG: step:4
-2023-08-16 16:22:29,849 [my_agent_cratehunter_code] DEBUG: action:BOMB
-2023-08-16 16:22:29,937 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:29,938 [my_agent_cratehunter_code] DEBUG: step:5
-2023-08-16 16:22:29,938 [my_agent_cratehunter_code] DEBUG: action:RIGHT
-2023-08-16 16:22:30,045 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:30,045 [my_agent_cratehunter_code] DEBUG: step:6
-2023-08-16 16:22:30,046 [my_agent_cratehunter_code] DEBUG: action:UP
-2023-08-16 16:22:30,137 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:30,137 [my_agent_cratehunter_code] DEBUG: step:7
-2023-08-16 16:22:30,137 [my_agent_cratehunter_code] DEBUG: action:DOWN
-2023-08-16 16:22:30,250 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:30,250 [my_agent_cratehunter_code] DEBUG: step:8
-2023-08-16 16:22:30,250 [my_agent_cratehunter_code] DEBUG: action:UP
-2023-08-16 16:22:30,957 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:30,958 [my_agent_cratehunter_code] DEBUG: step:1
-2023-08-16 16:22:30,958 [my_agent_cratehunter_code] DEBUG: action:DOWN
-2023-08-16 16:22:31,045 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:31,045 [my_agent_cratehunter_code] DEBUG: step:2
-2023-08-16 16:22:31,045 [my_agent_cratehunter_code] DEBUG: action:UP
-2023-08-16 16:22:31,156 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:31,156 [my_agent_cratehunter_code] DEBUG: step:3
-2023-08-16 16:22:31,156 [my_agent_cratehunter_code] DEBUG: action:BOMB
-2023-08-16 16:22:31,248 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:31,248 [my_agent_cratehunter_code] DEBUG: step:4
-2023-08-16 16:22:31,249 [my_agent_cratehunter_code] DEBUG: action:DOWN
-2023-08-16 16:22:31,359 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:31,360 [my_agent_cratehunter_code] DEBUG: step:5
-2023-08-16 16:22:31,360 [my_agent_cratehunter_code] DEBUG: action:DOWN
-2023-08-16 16:22:31,458 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:31,458 [my_agent_cratehunter_code] DEBUG: step:6
-2023-08-16 16:22:31,458 [my_agent_cratehunter_code] DEBUG: action:RIGHT
-2023-08-16 16:22:31,562 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:31,562 [my_agent_cratehunter_code] DEBUG: step:7
-2023-08-16 16:22:31,562 [my_agent_cratehunter_code] DEBUG: action:UP
-2023-08-16 16:22:31,661 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:31,661 [my_agent_cratehunter_code] DEBUG: step:8
-2023-08-16 16:22:31,662 [my_agent_cratehunter_code] DEBUG: action:DOWN
-2023-08-16 16:22:31,764 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:31,764 [my_agent_cratehunter_code] DEBUG: step:9
-2023-08-16 16:22:31,764 [my_agent_cratehunter_code] DEBUG: action:RIGHT
-2023-08-16 16:22:31,852 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:31,853 [my_agent_cratehunter_code] DEBUG: step:10
-2023-08-16 16:22:31,853 [my_agent_cratehunter_code] DEBUG: action:UP
-2023-08-16 16:22:31,964 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:31,964 [my_agent_cratehunter_code] DEBUG: step:11
-2023-08-16 16:22:31,964 [my_agent_cratehunter_code] DEBUG: action:LEFT
-2023-08-16 16:22:32,054 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:32,054 [my_agent_cratehunter_code] DEBUG: step:12
-2023-08-16 16:22:32,055 [my_agent_cratehunter_code] DEBUG: action:RIGHT
-2023-08-16 16:22:32,168 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:32,168 [my_agent_cratehunter_code] DEBUG: step:13
-2023-08-16 16:22:32,168 [my_agent_cratehunter_code] DEBUG: action:LEFT
-2023-08-16 16:22:32,266 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:32,266 [my_agent_cratehunter_code] DEBUG: step:14
-2023-08-16 16:22:32,267 [my_agent_cratehunter_code] DEBUG: action:BOMB
-2023-08-16 16:22:32,354 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:32,354 [my_agent_cratehunter_code] DEBUG: step:15
-2023-08-16 16:22:32,354 [my_agent_cratehunter_code] DEBUG: action:UP
-2023-08-16 16:22:32,471 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:32,472 [my_agent_cratehunter_code] DEBUG: step:16
-2023-08-16 16:22:32,472 [my_agent_cratehunter_code] DEBUG: action:RIGHT
-2023-08-16 16:22:32,574 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:32,574 [my_agent_cratehunter_code] DEBUG: step:17
-2023-08-16 16:22:32,574 [my_agent_cratehunter_code] DEBUG: action:RIGHT
-2023-08-16 16:22:32,676 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:32,677 [my_agent_cratehunter_code] DEBUG: step:18
-2023-08-16 16:22:32,677 [my_agent_cratehunter_code] DEBUG: action:DOWN
-2023-08-16 16:22:41,075 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:41,076 [my_agent_cratehunter_code] DEBUG: step:1
-2023-08-16 16:22:41,076 [my_agent_cratehunter_code] DEBUG: action:UP
-2023-08-16 16:22:41,173 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:41,173 [my_agent_cratehunter_code] DEBUG: step:2
-2023-08-16 16:22:41,173 [my_agent_cratehunter_code] DEBUG: action:RIGHT
-2023-08-16 16:22:41,276 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:41,277 [my_agent_cratehunter_code] DEBUG: step:3
-2023-08-16 16:22:41,277 [my_agent_cratehunter_code] DEBUG: action:LEFT
-2023-08-16 16:22:41,368 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:41,369 [my_agent_cratehunter_code] DEBUG: step:4
-2023-08-16 16:22:41,369 [my_agent_cratehunter_code] DEBUG: action:WAIT
-2023-08-16 16:22:41,476 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:41,476 [my_agent_cratehunter_code] DEBUG: step:5
-2023-08-16 16:22:41,476 [my_agent_cratehunter_code] DEBUG: action:DOWN
-2023-08-16 16:22:41,582 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:41,582 [my_agent_cratehunter_code] DEBUG: step:6
-2023-08-16 16:22:41,582 [my_agent_cratehunter_code] DEBUG: action:RIGHT
-2023-08-16 16:22:41,681 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:41,681 [my_agent_cratehunter_code] DEBUG: step:7
-2023-08-16 16:22:41,681 [my_agent_cratehunter_code] DEBUG: action:UP
-2023-08-16 16:22:41,783 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:41,783 [my_agent_cratehunter_code] DEBUG: step:8
-2023-08-16 16:22:41,783 [my_agent_cratehunter_code] DEBUG: action:DOWN
-2023-08-16 16:22:41,884 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:41,884 [my_agent_cratehunter_code] DEBUG: step:9
-2023-08-16 16:22:41,885 [my_agent_cratehunter_code] DEBUG: action:RIGHT
-2023-08-16 16:22:41,982 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:41,982 [my_agent_cratehunter_code] DEBUG: step:10
-2023-08-16 16:22:41,983 [my_agent_cratehunter_code] DEBUG: action:BOMB
-2023-08-16 16:22:42,087 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:42,088 [my_agent_cratehunter_code] DEBUG: step:11
-2023-08-16 16:22:42,088 [my_agent_cratehunter_code] DEBUG: action:RIGHT
-2023-08-16 16:22:42,165 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:42,165 [my_agent_cratehunter_code] DEBUG: step:12
-2023-08-16 16:22:42,165 [my_agent_cratehunter_code] DEBUG: action:RIGHT
-2023-08-16 16:22:42,286 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:42,286 [my_agent_cratehunter_code] DEBUG: step:13
-2023-08-16 16:22:42,286 [my_agent_cratehunter_code] DEBUG: action:LEFT
-2023-08-16 16:22:42,371 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:42,371 [my_agent_cratehunter_code] DEBUG: step:14
-2023-08-16 16:22:42,371 [my_agent_cratehunter_code] DEBUG: action:RIGHT
-2023-08-16 16:22:43,096 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:43,096 [my_agent_cratehunter_code] DEBUG: step:1
-2023-08-16 16:22:43,096 [my_agent_cratehunter_code] DEBUG: action:WAIT
-2023-08-16 16:22:43,189 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:43,189 [my_agent_cratehunter_code] DEBUG: step:2
-2023-08-16 16:22:43,189 [my_agent_cratehunter_code] DEBUG: action:LEFT
-2023-08-16 16:22:43,300 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:43,300 [my_agent_cratehunter_code] DEBUG: step:3
-2023-08-16 16:22:43,300 [my_agent_cratehunter_code] DEBUG: action:BOMB
-2023-08-16 16:22:43,397 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:43,397 [my_agent_cratehunter_code] DEBUG: step:4
-2023-08-16 16:22:43,397 [my_agent_cratehunter_code] DEBUG: action:DOWN
-2023-08-16 16:22:43,498 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:43,499 [my_agent_cratehunter_code] DEBUG: step:5
-2023-08-16 16:22:43,499 [my_agent_cratehunter_code] DEBUG: action:UP
-2023-08-16 16:22:43,601 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:43,602 [my_agent_cratehunter_code] DEBUG: step:6
-2023-08-16 16:22:43,602 [my_agent_cratehunter_code] DEBUG: action:RIGHT
-2023-08-16 16:22:43,705 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:43,705 [my_agent_cratehunter_code] DEBUG: step:7
-2023-08-16 16:22:43,705 [my_agent_cratehunter_code] DEBUG: action:RIGHT
-2023-08-16 16:22:44,517 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:44,517 [my_agent_cratehunter_code] DEBUG: step:1
-2023-08-16 16:22:44,517 [my_agent_cratehunter_code] DEBUG: action:BOMB
-2023-08-16 16:22:44,617 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:44,617 [my_agent_cratehunter_code] DEBUG: step:2
-2023-08-16 16:22:44,617 [my_agent_cratehunter_code] DEBUG: action:RIGHT
-2023-08-16 16:22:44,715 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:44,715 [my_agent_cratehunter_code] DEBUG: step:3
-2023-08-16 16:22:44,715 [my_agent_cratehunter_code] DEBUG: action:UP
-2023-08-16 16:22:44,819 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:44,819 [my_agent_cratehunter_code] DEBUG: step:4
-2023-08-16 16:22:44,819 [my_agent_cratehunter_code] DEBUG: action:LEFT
-2023-08-16 16:22:44,907 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:44,907 [my_agent_cratehunter_code] DEBUG: step:5
-2023-08-16 16:22:44,907 [my_agent_cratehunter_code] DEBUG: action:WAIT
-2023-08-16 16:22:45,824 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:45,824 [my_agent_cratehunter_code] DEBUG: step:1
-2023-08-16 16:22:45,825 [my_agent_cratehunter_code] DEBUG: action:UP
-2023-08-16 16:22:45,916 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:45,916 [my_agent_cratehunter_code] DEBUG: step:2
-2023-08-16 16:22:45,917 [my_agent_cratehunter_code] DEBUG: action:RIGHT
-2023-08-16 16:22:46,012 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:46,012 [my_agent_cratehunter_code] DEBUG: step:3
-2023-08-16 16:22:46,012 [my_agent_cratehunter_code] DEBUG: action:WAIT
-2023-08-16 16:22:46,107 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:46,107 [my_agent_cratehunter_code] DEBUG: step:4
-2023-08-16 16:22:46,107 [my_agent_cratehunter_code] DEBUG: action:BOMB
-2023-08-16 16:22:46,231 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:46,232 [my_agent_cratehunter_code] DEBUG: step:5
-2023-08-16 16:22:46,232 [my_agent_cratehunter_code] DEBUG: action:RIGHT
-2023-08-16 16:22:46,331 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:46,331 [my_agent_cratehunter_code] DEBUG: step:6
-2023-08-16 16:22:46,332 [my_agent_cratehunter_code] DEBUG: action:RIGHT
-2023-08-16 16:22:46,433 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:46,434 [my_agent_cratehunter_code] DEBUG: step:7
-2023-08-16 16:22:46,434 [my_agent_cratehunter_code] DEBUG: action:LEFT
-2023-08-16 16:22:46,536 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-16 16:22:46,536 [my_agent_cratehunter_code] DEBUG: step:8
-2023-08-16 16:22:46,537 [my_agent_cratehunter_code] DEBUG: action:UP
+2023-08-19 14:33:19,143 [my_agent_cratehunter_code] INFO: Setting up model from scratch.
+2023-08-19 14:33:19,248 [my_agent_cratehunter_code] DEBUG: Querying model for action.
+2023-08-19 14:33:19,249 [my_agent_cratehunter_code] DEBUG: prediction:[[0.15815774 0.17650412 0.18119644 0.15864411 0.1626169  0.1628807 ]]
+2023-08-19 14:33:19,249 [my_agent_cratehunter_code] DEBUG: step:1
+2023-08-19 14:33:19,249 [my_agent_cratehunter_code] DEBUG: action:LEFT
+2023-08-19 14:33:19,335 [my_agent_cratehunter_code] DEBUG: Querying model for action.
+2023-08-19 14:33:19,336 [my_agent_cratehunter_code] DEBUG: prediction:[[0.15815774 0.17650412 0.18119644 0.15864411 0.1626169  0.1628807 ]]
+2023-08-19 14:33:19,336 [my_agent_cratehunter_code] DEBUG: step:2
+2023-08-19 14:33:19,336 [my_agent_cratehunter_code] DEBUG: action:LEFT
+2023-08-19 14:33:19,430 [my_agent_cratehunter_code] DEBUG: Querying model for action.
+2023-08-19 14:33:19,431 [my_agent_cratehunter_code] DEBUG: prediction:[[0.15815774 0.17650412 0.18119644 0.15864411 0.1626169  0.1628807 ]]
+2023-08-19 14:33:19,431 [my_agent_cratehunter_code] DEBUG: step:3
+2023-08-19 14:33:19,431 [my_agent_cratehunter_code] DEBUG: action:RIGHT
+2023-08-19 14:33:19,525 [my_agent_cratehunter_code] DEBUG: Querying model for action.
+2023-08-19 14:33:19,526 [my_agent_cratehunter_code] DEBUG: prediction:[[0.1584087  0.17569372 0.18120584 0.15873972 0.16259676 0.16335532]]
+2023-08-19 14:33:19,526 [my_agent_cratehunter_code] DEBUG: step:4
+2023-08-19 14:33:19,526 [my_agent_cratehunter_code] DEBUG: action:UP
+2023-08-19 14:33:19,629 [my_agent_cratehunter_code] DEBUG: Querying model for action.
+2023-08-19 14:33:19,629 [my_agent_cratehunter_code] DEBUG: prediction:[[0.1584087  0.17569372 0.18120584 0.15873972 0.16259676 0.16335532]]
+2023-08-19 14:33:19,630 [my_agent_cratehunter_code] DEBUG: step:5
+2023-08-19 14:33:19,630 [my_agent_cratehunter_code] DEBUG: action:WAIT
+2023-08-19 14:33:19,728 [my_agent_cratehunter_code] DEBUG: Querying model for action.
+2023-08-19 14:33:19,729 [my_agent_cratehunter_code] DEBUG: prediction:[[0.1584087  0.17569372 0.18120584 0.15873972 0.16259676 0.16335532]]
+2023-08-19 14:33:19,729 [my_agent_cratehunter_code] DEBUG: step:6
+2023-08-19 14:33:19,729 [my_agent_cratehunter_code] DEBUG: action:UP
+2023-08-19 14:33:19,830 [my_agent_cratehunter_code] DEBUG: Querying model for action.
+2023-08-19 14:33:19,830 [my_agent_cratehunter_code] DEBUG: prediction:[[0.1584087  0.17569372 0.18120584 0.15873972 0.16259676 0.16335532]]
+2023-08-19 14:33:19,831 [my_agent_cratehunter_code] DEBUG: step:7
+2023-08-19 14:33:19,831 [my_agent_cratehunter_code] DEBUG: action:DOWN
+2023-08-19 14:33:19,931 [my_agent_cratehunter_code] DEBUG: Querying model for action.
+2023-08-19 14:33:19,932 [my_agent_cratehunter_code] DEBUG: prediction:[[0.1584087  0.17569372 0.18120584 0.15873972 0.16259676 0.16335532]]
+2023-08-19 14:33:19,932 [my_agent_cratehunter_code] DEBUG: step:8
+2023-08-19 14:33:19,932 [my_agent_cratehunter_code] DEBUG: action:BOMB
+2023-08-19 14:33:20,044 [my_agent_cratehunter_code] DEBUG: Querying model for action.
+2023-08-19 14:33:20,045 [my_agent_cratehunter_code] DEBUG: prediction:[[0.15478629 0.14091505 0.24092236 0.18419702 0.13761829 0.14156106]]
+2023-08-19 14:33:20,045 [my_agent_cratehunter_code] DEBUG: step:9
+2023-08-19 14:33:20,046 [my_agent_cratehunter_code] DEBUG: action:LEFT
+2023-08-19 14:33:20,147 [my_agent_cratehunter_code] DEBUG: Querying model for action.
+2023-08-19 14:33:20,148 [my_agent_cratehunter_code] DEBUG: prediction:[[0.15404336 0.15517662 0.21999751 0.174774   0.14580792 0.15020058]]
+2023-08-19 14:33:20,148 [my_agent_cratehunter_code] DEBUG: step:10
+2023-08-19 14:33:20,148 [my_agent_cratehunter_code] DEBUG: action:LEFT
+2023-08-19 14:33:20,244 [my_agent_cratehunter_code] DEBUG: Querying model for action.
+2023-08-19 14:33:20,245 [my_agent_cratehunter_code] DEBUG: prediction:[[0.15412235 0.15277667 0.22347856 0.17646661 0.14441891 0.14873697]]
+2023-08-19 14:33:20,245 [my_agent_cratehunter_code] DEBUG: step:11
+2023-08-19 14:33:20,246 [my_agent_cratehunter_code] DEBUG: action:WAIT
+2023-08-19 14:33:20,343 [my_agent_cratehunter_code] DEBUG: Querying model for action.
+2023-08-19 14:33:20,344 [my_agent_cratehunter_code] DEBUG: prediction:[[0.15420742 0.14881387 0.22933368 0.17926985 0.14209026 0.14628498]]
+2023-08-19 14:33:20,344 [my_agent_cratehunter_code] DEBUG: step:12
+2023-08-19 14:33:20,344 [my_agent_cratehunter_code] DEBUG: action:LEFT

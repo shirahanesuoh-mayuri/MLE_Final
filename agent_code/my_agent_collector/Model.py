@@ -32,9 +32,9 @@ class DQN(nn.Module):
         self.optimizer = optim.Adam(self.parameters(), self.learning_rate)
 
     def forward(self, x):
+        x = state_to_features(x)
         x = T.tensor(state_to_features(x)).float()
-        '''x = x.reshape(1, 4, -1)
-        x = self.conv0(x)
+        '''x = self.conv0(x)
         x = self.relu0(x)
         x = self.conv1(x)
         x = self.relu1(x)

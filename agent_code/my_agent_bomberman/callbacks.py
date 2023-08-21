@@ -32,8 +32,9 @@ def setup(self):
 
     if self.train or not os.path.isfile("my-saved-model.pt"):
         self.logger.info("Setting up model from scratch.")
-        #weights = np.random.rand(len(ACTIONS))
-        self.model = DQN(1, 6)
+        weights = np.random.rand(len(ACTIONS))
+        self.model = weights / weights.sum()
+        #self.model = DQN(1, 6)
     else:
         self.logger.info("Loading model from saved state.")
         with open("my-saved-model.pt", "rb") as file:
@@ -58,15 +59,16 @@ def act(self, game_state: dict) -> str:
     if self.train and random.random() < random_prob:
         self.logger.debug("Choosing action purely at random.")
         # 80%: walk in any direction. 10% wait. 10% bomb.
-        action = np.random.choice(ACTIONS, p=[.125, .125, .125, .125, .1, .4])
+        action = np.random.choice(ACTIONS, p=[.175, .175, .175, .175, .1, .2])
         return action
-    prediction = F.softmax(self.model.forward(game_state)).detach().numpy()
-    action = np.random.choice(ACTIONS, p=prediction.flatten())
-    #action = np.random.choice(ACTIONS, p=[.125, .125, .125, .125, .1, .4])
+    #prediction = F.softmax(self.model.forward(game_state)).detach().numpy()
+    #action = np.random.choice(ACTIONS, p=prediction.flatten())
+    action = np.random.choice(ACTIONS, p=[.125, .125, .125, .125, .1, .4])
     self.logger.debug("Querying model for action.")
-    self.logger.debug(f'prediction:{prediction}')
-
+    #self.logger.debug(f'prediction:{prediction}')
     self.logger.debug(f'step:{game_state["step"]}')
+    self.logger.debug(f'feature:{state_to_features(game_state)}')
+
     #self.logger.debug(f'game state:\n{game_state["field"]}')
     #self.logger.debug(f'coins:{game_state["coins"]}')
     #self.logger.debug(f'self: {game_state["self"][3]}')

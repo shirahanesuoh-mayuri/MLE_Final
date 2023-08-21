@@ -19,9 +19,12 @@ def state_to_features(game_state: dict) -> np.array:
 
     if game_state is None:
         return None
-    count_down = -1
+    count_down = []
+    bomber_mans = [-1, -1]
     # For example, you could construct several channels of equal shape, ...
     _, _, bombholder, (x_self, y_self) = game_state["self"]
+    for _,_,bomber_man,(_, _) in game_state["others"]:
+        bomber_mans = bomber_man
     feature_matrix_shape = game_state["field"].shape
     walls = game_state["field"]
     explosion = np.zeros(feature_matrix_shape)
@@ -29,7 +32,7 @@ def state_to_features(game_state: dict) -> np.array:
 
 
     #coin_map =  np.zeros(feature_matrix_shape)
-    if bombholder == 0:
+    if bombholder == 0 or 0 in bomber_mans:
         for (x, y), c in game_state["bombs"]:
             count_down = c
             walls[x, y] = -50
@@ -53,6 +56,8 @@ def state_to_features(game_state: dict) -> np.array:
                     walls[x+i, y] = -25-30/(c+2)
     for (x, y) in game_state["coins"]:
         walls[x, y] = 100
+    for _, _, _,(x, y) in game_state["others"]:
+        walls[x, y] = 75
     print(count_down)
     field_matrix = np.copy(walls)
     up_situation = field_matrix[x_self, y_self-1]
@@ -62,8 +67,9 @@ def state_to_features(game_state: dict) -> np.array:
     my_situation = field_matrix[x_self, y_self]
 
 
-    game_feature = np.array(([up_situation, down_situation, left_situation, right_situation, my_situation, count_down]))
-    game_feature = T.tensor(game_feature).view(3, -1).unsqueeze(0).unsqueeze(0).float()
+    game_feature = np.array(([up_situation, down_situation, left_situation, right_situation, my_situation]))
+    game_feature = np.hstack(game_feature, count_down)
+    T.tensor(game_feature)
     print(game_state["step"])
     print(game_feature)
     print(walls)
