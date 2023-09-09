@@ -36,24 +36,37 @@ def state_to_features(game_state: dict) -> np.array:
         for (x, y), c in game_state["bombs"]:
             count_down = c
             walls[x, y] = -50
+        # if count_down in range(0, 4):
+        #     for (x, y), c in game_state["bombs"]:
+        #         for i in range(1, 4):
+        #             if walls[x-i, y] == -1:
+        #                 break
+        #             walls[x-i, y] = -25-30/(c+2)
+        #         for i in range(1, 4):
+        #             if walls[x, y-i] == -1:
+        #                 break
+        #             walls[x, y-i] = -25-30/(c+2)
+        #         for i in range(1, 4):
+        #             if walls[x, y+i] == -1:
+        #                 break
+        #             walls[x, y+i] = -25-30/(c+2)
+        #         for i in range(1, 4):
+        #             if walls[x+i, y] == -1:
+        #                 break
+        #             walls[x+i, y] = -25-30/(c+2)
+##Here, we used a list of dx, dy tuples to represent the four possible directions: left (-1, 0), right (1, 0), up (0, -1) and down (0, 1 ).
+#
+# Then, we use a for loop to iterate through the directions and take up to three steps in each direction (range(1, 4)), just like you did in your original code.
+#
+# In this way, we have replaced the original four with two nested for loops and eliminated duplicate code.
         if count_down in range(0, 4):
             for (x, y), c in game_state["bombs"]:
-                for i in range(1, 4):
-                    if walls[x-i, y] == -1:
-                        break
-                    walls[x-i, y] = -25-30/(c+2)
-                for i in range(1, 4):
-                    if walls[x, y-i] == -1:
-                        break
-                    walls[x, y-i] = -25-30/(c+2)
-                for i in range(1, 4):
-                    if walls[x, y+i] == -1:
-                        break
-                    walls[x, y+i] = -25-30/(c+2)
-                for i in range(1, 4):
-                    if walls[x+i, y] == -1:
-                        break
-                    walls[x+i, y] = -25-30/(c+2)
+                for dx, dy in [(-1, 0), (1, 0), (0, -1), (0, 1)]:
+                    for i in range(1, 4):
+                        new_x, new_y = x + dx * i, y + dy * i
+                        if walls[new_x, new_y] == -1:
+                            break
+                        walls[new_x, new_y] = -25 - 30 / (c + 2)
     for (x, y) in game_state["coins"]:
         walls[x, y] = 100
     for _, _, _,(x, y) in game_state["others"]:
