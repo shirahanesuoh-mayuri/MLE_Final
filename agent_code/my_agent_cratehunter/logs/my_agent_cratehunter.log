@@ -1,49 +1,12 @@
-2023-08-19 14:33:19,143 [my_agent_cratehunter_code] INFO: Setting up model from scratch.
-2023-08-19 14:33:19,248 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-19 14:33:19,249 [my_agent_cratehunter_code] DEBUG: prediction:[[0.15815774 0.17650412 0.18119644 0.15864411 0.1626169  0.1628807 ]]
-2023-08-19 14:33:19,249 [my_agent_cratehunter_code] DEBUG: step:1
-2023-08-19 14:33:19,249 [my_agent_cratehunter_code] DEBUG: action:LEFT
-2023-08-19 14:33:19,335 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-19 14:33:19,336 [my_agent_cratehunter_code] DEBUG: prediction:[[0.15815774 0.17650412 0.18119644 0.15864411 0.1626169  0.1628807 ]]
-2023-08-19 14:33:19,336 [my_agent_cratehunter_code] DEBUG: step:2
-2023-08-19 14:33:19,336 [my_agent_cratehunter_code] DEBUG: action:LEFT
-2023-08-19 14:33:19,430 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-19 14:33:19,431 [my_agent_cratehunter_code] DEBUG: prediction:[[0.15815774 0.17650412 0.18119644 0.15864411 0.1626169  0.1628807 ]]
-2023-08-19 14:33:19,431 [my_agent_cratehunter_code] DEBUG: step:3
-2023-08-19 14:33:19,431 [my_agent_cratehunter_code] DEBUG: action:RIGHT
-2023-08-19 14:33:19,525 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-19 14:33:19,526 [my_agent_cratehunter_code] DEBUG: prediction:[[0.1584087  0.17569372 0.18120584 0.15873972 0.16259676 0.16335532]]
-2023-08-19 14:33:19,526 [my_agent_cratehunter_code] DEBUG: step:4
-2023-08-19 14:33:19,526 [my_agent_cratehunter_code] DEBUG: action:UP
-2023-08-19 14:33:19,629 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-19 14:33:19,629 [my_agent_cratehunter_code] DEBUG: prediction:[[0.1584087  0.17569372 0.18120584 0.15873972 0.16259676 0.16335532]]
-2023-08-19 14:33:19,630 [my_agent_cratehunter_code] DEBUG: step:5
-2023-08-19 14:33:19,630 [my_agent_cratehunter_code] DEBUG: action:WAIT
-2023-08-19 14:33:19,728 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-19 14:33:19,729 [my_agent_cratehunter_code] DEBUG: prediction:[[0.1584087  0.17569372 0.18120584 0.15873972 0.16259676 0.16335532]]
-2023-08-19 14:33:19,729 [my_agent_cratehunter_code] DEBUG: step:6
-2023-08-19 14:33:19,729 [my_agent_cratehunter_code] DEBUG: action:UP
-2023-08-19 14:33:19,830 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-19 14:33:19,830 [my_agent_cratehunter_code] DEBUG: prediction:[[0.1584087  0.17569372 0.18120584 0.15873972 0.16259676 0.16335532]]
-2023-08-19 14:33:19,831 [my_agent_cratehunter_code] DEBUG: step:7
-2023-08-19 14:33:19,831 [my_agent_cratehunter_code] DEBUG: action:DOWN
-2023-08-19 14:33:19,931 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-19 14:33:19,932 [my_agent_cratehunter_code] DEBUG: prediction:[[0.1584087  0.17569372 0.18120584 0.15873972 0.16259676 0.16335532]]
-2023-08-19 14:33:19,932 [my_agent_cratehunter_code] DEBUG: step:8
-2023-08-19 14:33:19,932 [my_agent_cratehunter_code] DEBUG: action:BOMB
-2023-08-19 14:33:20,044 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-19 14:33:20,045 [my_agent_cratehunter_code] DEBUG: prediction:[[0.15478629 0.14091505 0.24092236 0.18419702 0.13761829 0.14156106]]
-2023-08-19 14:33:20,045 [my_agent_cratehunter_code] DEBUG: step:9
-2023-08-19 14:33:20,046 [my_agent_cratehunter_code] DEBUG: action:LEFT
-2023-08-19 14:33:20,147 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-19 14:33:20,148 [my_agent_cratehunter_code] DEBUG: prediction:[[0.15404336 0.15517662 0.21999751 0.174774   0.14580792 0.15020058]]
-2023-08-19 14:33:20,148 [my_agent_cratehunter_code] DEBUG: step:10
-2023-08-19 14:33:20,148 [my_agent_cratehunter_code] DEBUG: action:LEFT
-2023-08-19 14:33:20,244 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-19 14:33:20,245 [my_agent_cratehunter_code] DEBUG: prediction:[[0.15412235 0.15277667 0.22347856 0.17646661 0.14441891 0.14873697]]
-2023-08-19 14:33:20,245 [my_agent_cratehunter_code] DEBUG: step:11
-2023-08-19 14:33:20,246 [my_agent_cratehunter_code] DEBUG: action:WAIT
-2023-08-19 14:33:20,343 [my_agent_cratehunter_code] DEBUG: Querying model for action.
-2023-08-19 14:33:20,344 [my_agent_cratehunter_code] DEBUG: prediction:[[0.15420742 0.14881387 0.22933368 0.17926985 0.14209026 0.14628498]]
-2023-08-19 14:33:20,344 [my_agent_cratehunter_code] DEBUG: step:12
-2023-08-19 14:33:20,344 [my_agent_cratehunter_code] DEBUG: action:LEFT
+2023-09-09 11:08:02,821 [my_agent_cratehunter_code] INFO: Setting up model from scratch.
+2023-09-09 11:08:02,892 [my_agent_cratehunter_wrapper] ERROR: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices
+Traceback (most recent call last):
+  File "F:\Summer semester 2023\Machine Learning Essentials\Exercise\Final\bomberman_rl-master\agents.py", line 248, in process_event
+    event_result = getattr(module, event_name)(self.fake_self, *event_args)
+  File "F:\Summer semester 2023\Machine Learning Essentials\Exercise\Final\bomberman_rl-master\agent_code\my_agent_cratehunter\callbacks.py", line 63, in act
+    prediction = F.softmax(self.model.forward(game_state)).detach().numpy()
+  File "F:\Summer semester 2023\Machine Learning Essentials\Exercise\Final\bomberman_rl-master\agent_code\my_agent_cratehunter\Model.py", line 36, in forward
+    x = T.tensor(state_to_features(x)).float()
+  File "F:\Summer semester 2023\Machine Learning Essentials\Exercise\Final\bomberman_rl-master\agent_code\my_agent_cratehunter\stateTofeatures.py", line 25, in state_to_features
+    _, _, bombholder, (x_self, y_self) = game_state["self"]
+IndexError: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices

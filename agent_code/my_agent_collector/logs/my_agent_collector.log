@@ -1,1201 +1,280 @@
-2023-08-15 15:56:11,931 [my_agent_collector_code] INFO: Loading model from saved state.
-2023-08-15 15:56:11,962 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:11,963 [my_agent_collector_code] DEBUG: step:1
-2023-08-15 15:56:11,963 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:12,069 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:12,069 [my_agent_collector_code] DEBUG: step:2
-2023-08-15 15:56:12,069 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:12,168 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:12,169 [my_agent_collector_code] DEBUG: step:3
-2023-08-15 15:56:12,169 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:12,270 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:12,270 [my_agent_collector_code] DEBUG: step:4
-2023-08-15 15:56:12,270 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:12,366 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:12,366 [my_agent_collector_code] DEBUG: step:5
-2023-08-15 15:56:12,366 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:12,480 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:12,480 [my_agent_collector_code] DEBUG: step:6
-2023-08-15 15:56:12,481 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:12,582 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:12,583 [my_agent_collector_code] DEBUG: step:7
-2023-08-15 15:56:12,583 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:12,675 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:12,675 [my_agent_collector_code] DEBUG: step:8
-2023-08-15 15:56:12,675 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:12,773 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:12,773 [my_agent_collector_code] DEBUG: step:9
-2023-08-15 15:56:12,773 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:12,874 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:12,874 [my_agent_collector_code] DEBUG: step:10
-2023-08-15 15:56:12,874 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:12,987 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:12,987 [my_agent_collector_code] DEBUG: step:11
-2023-08-15 15:56:12,987 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:13,089 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:13,089 [my_agent_collector_code] DEBUG: step:12
-2023-08-15 15:56:13,090 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:13,180 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:13,180 [my_agent_collector_code] DEBUG: step:13
-2023-08-15 15:56:13,180 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:13,292 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:13,292 [my_agent_collector_code] DEBUG: step:14
-2023-08-15 15:56:13,293 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:13,393 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:13,393 [my_agent_collector_code] DEBUG: step:15
-2023-08-15 15:56:13,394 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:13,495 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:13,496 [my_agent_collector_code] DEBUG: step:16
-2023-08-15 15:56:13,496 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:13,596 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:13,597 [my_agent_collector_code] DEBUG: step:17
-2023-08-15 15:56:13,597 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:13,698 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:13,698 [my_agent_collector_code] DEBUG: step:18
-2023-08-15 15:56:13,699 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:13,799 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:13,799 [my_agent_collector_code] DEBUG: step:19
-2023-08-15 15:56:13,800 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:13,901 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:13,901 [my_agent_collector_code] DEBUG: step:20
-2023-08-15 15:56:13,902 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:14,002 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:14,002 [my_agent_collector_code] DEBUG: step:21
-2023-08-15 15:56:14,003 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:14,103 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:14,103 [my_agent_collector_code] DEBUG: step:22
-2023-08-15 15:56:14,104 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:14,204 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:14,204 [my_agent_collector_code] DEBUG: step:23
-2023-08-15 15:56:14,204 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:14,305 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:14,305 [my_agent_collector_code] DEBUG: step:24
-2023-08-15 15:56:14,306 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:14,407 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:14,407 [my_agent_collector_code] DEBUG: step:25
-2023-08-15 15:56:14,408 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:14,509 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:14,509 [my_agent_collector_code] DEBUG: step:26
-2023-08-15 15:56:14,509 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:14,609 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:14,609 [my_agent_collector_code] DEBUG: step:27
-2023-08-15 15:56:14,610 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:14,711 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:14,711 [my_agent_collector_code] DEBUG: step:28
-2023-08-15 15:56:14,712 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:14,800 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:14,800 [my_agent_collector_code] DEBUG: step:29
-2023-08-15 15:56:14,800 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:14,914 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:14,915 [my_agent_collector_code] DEBUG: step:30
-2023-08-15 15:56:14,915 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:15,016 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:15,017 [my_agent_collector_code] DEBUG: step:31
-2023-08-15 15:56:15,017 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:15,117 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:15,117 [my_agent_collector_code] DEBUG: step:32
-2023-08-15 15:56:15,118 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:15,219 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:15,220 [my_agent_collector_code] DEBUG: step:33
-2023-08-15 15:56:15,220 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:15,320 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:15,321 [my_agent_collector_code] DEBUG: step:34
-2023-08-15 15:56:15,321 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:15,421 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:15,421 [my_agent_collector_code] DEBUG: step:35
-2023-08-15 15:56:15,422 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:15,522 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:15,523 [my_agent_collector_code] DEBUG: step:36
-2023-08-15 15:56:15,523 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:15,624 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:15,625 [my_agent_collector_code] DEBUG: step:37
-2023-08-15 15:56:15,625 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:15,725 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:15,725 [my_agent_collector_code] DEBUG: step:38
-2023-08-15 15:56:15,726 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:15,826 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:15,826 [my_agent_collector_code] DEBUG: step:39
-2023-08-15 15:56:15,827 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:15,927 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:15,928 [my_agent_collector_code] DEBUG: step:40
-2023-08-15 15:56:15,928 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:16,028 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:16,029 [my_agent_collector_code] DEBUG: step:41
-2023-08-15 15:56:16,029 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:16,129 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:16,129 [my_agent_collector_code] DEBUG: step:42
-2023-08-15 15:56:16,129 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:16,231 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:16,231 [my_agent_collector_code] DEBUG: step:43
-2023-08-15 15:56:16,232 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:16,327 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:16,327 [my_agent_collector_code] DEBUG: step:44
-2023-08-15 15:56:16,327 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:16,420 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:16,420 [my_agent_collector_code] DEBUG: step:45
-2023-08-15 15:56:16,420 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:16,535 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:16,535 [my_agent_collector_code] DEBUG: step:46
-2023-08-15 15:56:16,535 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:16,635 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:16,635 [my_agent_collector_code] DEBUG: step:47
-2023-08-15 15:56:16,636 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:16,737 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:16,737 [my_agent_collector_code] DEBUG: step:48
-2023-08-15 15:56:16,737 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:16,836 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:16,837 [my_agent_collector_code] DEBUG: step:49
-2023-08-15 15:56:16,837 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:16,938 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:16,938 [my_agent_collector_code] DEBUG: step:50
-2023-08-15 15:56:16,938 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:17,040 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:17,040 [my_agent_collector_code] DEBUG: step:51
-2023-08-15 15:56:17,041 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:17,138 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:17,138 [my_agent_collector_code] DEBUG: step:52
-2023-08-15 15:56:17,138 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:17,230 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:17,230 [my_agent_collector_code] DEBUG: step:53
-2023-08-15 15:56:17,230 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:17,331 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:17,331 [my_agent_collector_code] DEBUG: step:54
-2023-08-15 15:56:17,331 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:17,446 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:17,447 [my_agent_collector_code] DEBUG: step:55
-2023-08-15 15:56:17,447 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:17,547 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:17,548 [my_agent_collector_code] DEBUG: step:56
-2023-08-15 15:56:17,548 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:17,649 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:17,649 [my_agent_collector_code] DEBUG: step:57
-2023-08-15 15:56:17,650 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:17,751 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:17,751 [my_agent_collector_code] DEBUG: step:58
-2023-08-15 15:56:17,752 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:17,852 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:17,852 [my_agent_collector_code] DEBUG: step:59
-2023-08-15 15:56:17,852 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:17,953 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:17,953 [my_agent_collector_code] DEBUG: step:60
-2023-08-15 15:56:17,954 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:18,055 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:18,055 [my_agent_collector_code] DEBUG: step:61
-2023-08-15 15:56:18,056 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:18,156 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:18,156 [my_agent_collector_code] DEBUG: step:62
-2023-08-15 15:56:18,157 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:18,258 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:18,258 [my_agent_collector_code] DEBUG: step:63
-2023-08-15 15:56:18,259 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:18,360 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:18,361 [my_agent_collector_code] DEBUG: step:64
-2023-08-15 15:56:18,361 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:18,461 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:18,461 [my_agent_collector_code] DEBUG: step:65
-2023-08-15 15:56:18,461 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:18,562 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:18,562 [my_agent_collector_code] DEBUG: step:66
-2023-08-15 15:56:18,563 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:18,663 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:18,663 [my_agent_collector_code] DEBUG: step:67
-2023-08-15 15:56:18,664 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:18,765 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:18,766 [my_agent_collector_code] DEBUG: step:68
-2023-08-15 15:56:18,766 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:18,855 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:18,855 [my_agent_collector_code] DEBUG: step:69
-2023-08-15 15:56:18,855 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:18,968 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:18,968 [my_agent_collector_code] DEBUG: step:70
-2023-08-15 15:56:18,969 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:19,069 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:19,069 [my_agent_collector_code] DEBUG: step:71
-2023-08-15 15:56:19,070 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:19,171 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:19,171 [my_agent_collector_code] DEBUG: step:72
-2023-08-15 15:56:19,172 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:19,271 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:19,271 [my_agent_collector_code] DEBUG: step:73
-2023-08-15 15:56:19,272 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:19,372 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:19,372 [my_agent_collector_code] DEBUG: step:74
-2023-08-15 15:56:19,373 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:19,474 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:19,474 [my_agent_collector_code] DEBUG: step:75
-2023-08-15 15:56:19,475 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:19,575 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:19,575 [my_agent_collector_code] DEBUG: step:76
-2023-08-15 15:56:19,575 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:19,676 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:19,676 [my_agent_collector_code] DEBUG: step:77
-2023-08-15 15:56:19,677 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:19,777 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:19,777 [my_agent_collector_code] DEBUG: step:78
-2023-08-15 15:56:19,778 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:19,878 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:19,878 [my_agent_collector_code] DEBUG: step:79
-2023-08-15 15:56:19,879 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:19,966 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:19,966 [my_agent_collector_code] DEBUG: step:80
-2023-08-15 15:56:19,967 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:20,081 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:20,081 [my_agent_collector_code] DEBUG: step:81
-2023-08-15 15:56:20,082 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:20,177 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:20,178 [my_agent_collector_code] DEBUG: step:82
-2023-08-15 15:56:20,178 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:20,284 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:20,284 [my_agent_collector_code] DEBUG: step:83
-2023-08-15 15:56:20,285 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:20,386 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:20,386 [my_agent_collector_code] DEBUG: step:84
-2023-08-15 15:56:20,387 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:20,488 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:20,488 [my_agent_collector_code] DEBUG: step:85
-2023-08-15 15:56:20,489 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:20,589 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:20,590 [my_agent_collector_code] DEBUG: step:86
-2023-08-15 15:56:20,590 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:20,681 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:20,681 [my_agent_collector_code] DEBUG: step:87
-2023-08-15 15:56:20,681 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:20,792 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:20,792 [my_agent_collector_code] DEBUG: step:88
-2023-08-15 15:56:20,793 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:20,893 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:20,893 [my_agent_collector_code] DEBUG: step:89
-2023-08-15 15:56:20,893 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:20,994 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:20,994 [my_agent_collector_code] DEBUG: step:90
-2023-08-15 15:56:20,994 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:21,095 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:21,095 [my_agent_collector_code] DEBUG: step:91
-2023-08-15 15:56:21,096 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:21,196 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:21,196 [my_agent_collector_code] DEBUG: step:92
-2023-08-15 15:56:21,197 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:21,297 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:21,297 [my_agent_collector_code] DEBUG: step:93
-2023-08-15 15:56:21,297 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:21,398 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:21,398 [my_agent_collector_code] DEBUG: step:94
-2023-08-15 15:56:21,399 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:21,499 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:21,499 [my_agent_collector_code] DEBUG: step:95
-2023-08-15 15:56:21,500 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:21,601 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:21,601 [my_agent_collector_code] DEBUG: step:96
-2023-08-15 15:56:21,602 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:21,703 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:21,704 [my_agent_collector_code] DEBUG: step:97
-2023-08-15 15:56:21,704 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:21,804 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:21,804 [my_agent_collector_code] DEBUG: step:98
-2023-08-15 15:56:21,804 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:21,904 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:21,905 [my_agent_collector_code] DEBUG: step:99
-2023-08-15 15:56:21,905 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:22,005 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:22,005 [my_agent_collector_code] DEBUG: step:100
-2023-08-15 15:56:22,006 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:22,107 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:22,108 [my_agent_collector_code] DEBUG: step:101
-2023-08-15 15:56:22,108 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:22,208 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:22,209 [my_agent_collector_code] DEBUG: step:102
-2023-08-15 15:56:22,209 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:22,309 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:22,309 [my_agent_collector_code] DEBUG: step:103
-2023-08-15 15:56:22,309 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:22,411 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:22,412 [my_agent_collector_code] DEBUG: step:104
-2023-08-15 15:56:22,412 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:22,513 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:22,513 [my_agent_collector_code] DEBUG: step:105
-2023-08-15 15:56:22,514 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:22,614 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:22,614 [my_agent_collector_code] DEBUG: step:106
-2023-08-15 15:56:22,615 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:22,716 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:22,716 [my_agent_collector_code] DEBUG: step:107
-2023-08-15 15:56:22,717 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:22,817 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:22,817 [my_agent_collector_code] DEBUG: step:108
-2023-08-15 15:56:22,817 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:22,913 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:22,913 [my_agent_collector_code] DEBUG: step:109
-2023-08-15 15:56:22,913 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:23,019 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:23,019 [my_agent_collector_code] DEBUG: step:110
-2023-08-15 15:56:23,019 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:23,121 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:23,121 [my_agent_collector_code] DEBUG: step:111
-2023-08-15 15:56:23,121 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:23,222 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:23,222 [my_agent_collector_code] DEBUG: step:112
-2023-08-15 15:56:23,222 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:23,323 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:23,323 [my_agent_collector_code] DEBUG: step:113
-2023-08-15 15:56:23,323 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:23,424 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:23,424 [my_agent_collector_code] DEBUG: step:114
-2023-08-15 15:56:23,425 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:23,526 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:23,526 [my_agent_collector_code] DEBUG: step:115
-2023-08-15 15:56:23,527 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:23,627 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:23,627 [my_agent_collector_code] DEBUG: step:116
-2023-08-15 15:56:23,627 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:23,729 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:23,729 [my_agent_collector_code] DEBUG: step:117
-2023-08-15 15:56:23,730 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:23,831 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:23,831 [my_agent_collector_code] DEBUG: step:118
-2023-08-15 15:56:23,832 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:23,932 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:23,932 [my_agent_collector_code] DEBUG: step:119
-2023-08-15 15:56:23,933 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:24,032 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:24,032 [my_agent_collector_code] DEBUG: step:120
-2023-08-15 15:56:24,032 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:24,133 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:24,133 [my_agent_collector_code] DEBUG: step:121
-2023-08-15 15:56:24,134 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:24,234 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:24,234 [my_agent_collector_code] DEBUG: step:122
-2023-08-15 15:56:24,235 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:24,335 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:24,336 [my_agent_collector_code] DEBUG: step:123
-2023-08-15 15:56:24,336 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:24,436 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:24,436 [my_agent_collector_code] DEBUG: step:124
-2023-08-15 15:56:24,436 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:24,538 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:24,538 [my_agent_collector_code] DEBUG: step:125
-2023-08-15 15:56:24,538 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:24,640 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:24,640 [my_agent_collector_code] DEBUG: step:126
-2023-08-15 15:56:24,640 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:24,741 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:24,741 [my_agent_collector_code] DEBUG: step:127
-2023-08-15 15:56:24,741 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:24,842 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:24,842 [my_agent_collector_code] DEBUG: step:128
-2023-08-15 15:56:24,842 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:24,944 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:24,944 [my_agent_collector_code] DEBUG: step:129
-2023-08-15 15:56:24,944 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:25,046 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:25,046 [my_agent_collector_code] DEBUG: step:130
-2023-08-15 15:56:25,046 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:25,146 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:25,146 [my_agent_collector_code] DEBUG: step:131
-2023-08-15 15:56:25,146 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:25,247 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:25,247 [my_agent_collector_code] DEBUG: step:132
-2023-08-15 15:56:25,247 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:25,350 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:25,350 [my_agent_collector_code] DEBUG: step:133
-2023-08-15 15:56:25,350 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:25,450 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:25,450 [my_agent_collector_code] DEBUG: step:134
-2023-08-15 15:56:25,451 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:25,551 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:25,551 [my_agent_collector_code] DEBUG: step:135
-2023-08-15 15:56:25,551 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:25,652 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:25,652 [my_agent_collector_code] DEBUG: step:136
-2023-08-15 15:56:25,653 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:25,753 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:25,754 [my_agent_collector_code] DEBUG: step:137
-2023-08-15 15:56:25,754 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:25,855 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:25,855 [my_agent_collector_code] DEBUG: step:138
-2023-08-15 15:56:25,856 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:25,956 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:25,956 [my_agent_collector_code] DEBUG: step:139
-2023-08-15 15:56:25,956 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:26,057 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:26,057 [my_agent_collector_code] DEBUG: step:140
-2023-08-15 15:56:26,058 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:26,159 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:26,159 [my_agent_collector_code] DEBUG: step:141
-2023-08-15 15:56:26,159 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:26,261 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:26,261 [my_agent_collector_code] DEBUG: step:142
-2023-08-15 15:56:26,262 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:26,362 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:26,362 [my_agent_collector_code] DEBUG: step:143
-2023-08-15 15:56:26,363 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:26,463 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:26,463 [my_agent_collector_code] DEBUG: step:144
-2023-08-15 15:56:26,463 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:26,551 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:26,551 [my_agent_collector_code] DEBUG: step:145
-2023-08-15 15:56:26,551 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:26,668 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:26,668 [my_agent_collector_code] DEBUG: step:146
-2023-08-15 15:56:26,668 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:26,768 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:26,768 [my_agent_collector_code] DEBUG: step:147
-2023-08-15 15:56:26,768 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:26,869 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:26,869 [my_agent_collector_code] DEBUG: step:148
-2023-08-15 15:56:26,870 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:26,971 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:26,971 [my_agent_collector_code] DEBUG: step:149
-2023-08-15 15:56:26,971 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:27,072 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:27,072 [my_agent_collector_code] DEBUG: step:150
-2023-08-15 15:56:27,073 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:27,173 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:27,173 [my_agent_collector_code] DEBUG: step:151
-2023-08-15 15:56:27,173 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:27,275 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:27,275 [my_agent_collector_code] DEBUG: step:152
-2023-08-15 15:56:27,275 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:27,376 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:27,376 [my_agent_collector_code] DEBUG: step:153
-2023-08-15 15:56:27,377 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:27,478 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:27,478 [my_agent_collector_code] DEBUG: step:154
-2023-08-15 15:56:27,478 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:27,579 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:27,579 [my_agent_collector_code] DEBUG: step:155
-2023-08-15 15:56:27,579 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:27,681 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:27,681 [my_agent_collector_code] DEBUG: step:156
-2023-08-15 15:56:27,682 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:27,782 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:27,782 [my_agent_collector_code] DEBUG: step:157
-2023-08-15 15:56:27,783 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:27,883 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:27,883 [my_agent_collector_code] DEBUG: step:158
-2023-08-15 15:56:27,884 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:27,985 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:27,985 [my_agent_collector_code] DEBUG: step:159
-2023-08-15 15:56:27,985 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:28,086 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:28,086 [my_agent_collector_code] DEBUG: step:160
-2023-08-15 15:56:28,086 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:28,188 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:28,188 [my_agent_collector_code] DEBUG: step:161
-2023-08-15 15:56:28,188 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:28,290 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:28,290 [my_agent_collector_code] DEBUG: step:162
-2023-08-15 15:56:28,290 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:28,390 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:28,390 [my_agent_collector_code] DEBUG: step:163
-2023-08-15 15:56:28,390 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:28,492 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:28,492 [my_agent_collector_code] DEBUG: step:164
-2023-08-15 15:56:28,492 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:28,593 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:28,593 [my_agent_collector_code] DEBUG: step:165
-2023-08-15 15:56:28,593 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:28,695 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:28,695 [my_agent_collector_code] DEBUG: step:166
-2023-08-15 15:56:28,696 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:28,796 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:28,796 [my_agent_collector_code] DEBUG: step:167
-2023-08-15 15:56:28,796 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:28,897 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:28,897 [my_agent_collector_code] DEBUG: step:168
-2023-08-15 15:56:28,897 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:28,998 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:28,998 [my_agent_collector_code] DEBUG: step:169
-2023-08-15 15:56:28,998 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:29,098 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:29,098 [my_agent_collector_code] DEBUG: step:170
-2023-08-15 15:56:29,099 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:29,199 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:29,199 [my_agent_collector_code] DEBUG: step:171
-2023-08-15 15:56:29,199 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:29,300 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:29,300 [my_agent_collector_code] DEBUG: step:172
-2023-08-15 15:56:29,300 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:29,400 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:29,400 [my_agent_collector_code] DEBUG: step:173
-2023-08-15 15:56:29,400 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:29,502 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:29,502 [my_agent_collector_code] DEBUG: step:174
-2023-08-15 15:56:29,503 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:29,604 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:29,604 [my_agent_collector_code] DEBUG: step:175
-2023-08-15 15:56:29,605 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:29,706 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:29,706 [my_agent_collector_code] DEBUG: step:176
-2023-08-15 15:56:29,706 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:29,807 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:29,807 [my_agent_collector_code] DEBUG: step:177
-2023-08-15 15:56:29,808 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:29,908 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:29,908 [my_agent_collector_code] DEBUG: step:178
-2023-08-15 15:56:29,908 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:30,008 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:30,008 [my_agent_collector_code] DEBUG: step:179
-2023-08-15 15:56:30,008 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:30,109 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:30,109 [my_agent_collector_code] DEBUG: step:180
-2023-08-15 15:56:30,109 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:30,210 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:30,210 [my_agent_collector_code] DEBUG: step:181
-2023-08-15 15:56:30,210 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:30,311 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:30,311 [my_agent_collector_code] DEBUG: step:182
-2023-08-15 15:56:30,311 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:30,413 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:30,413 [my_agent_collector_code] DEBUG: step:183
-2023-08-15 15:56:30,413 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:30,514 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:30,514 [my_agent_collector_code] DEBUG: step:184
-2023-08-15 15:56:30,515 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:30,615 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:30,615 [my_agent_collector_code] DEBUG: step:185
-2023-08-15 15:56:30,616 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:30,717 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:30,717 [my_agent_collector_code] DEBUG: step:186
-2023-08-15 15:56:30,717 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:30,817 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:30,817 [my_agent_collector_code] DEBUG: step:187
-2023-08-15 15:56:30,817 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:30,917 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:30,918 [my_agent_collector_code] DEBUG: step:188
-2023-08-15 15:56:30,918 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:31,018 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:31,019 [my_agent_collector_code] DEBUG: step:189
-2023-08-15 15:56:31,019 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:31,120 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:31,120 [my_agent_collector_code] DEBUG: step:190
-2023-08-15 15:56:31,120 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:31,222 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:31,222 [my_agent_collector_code] DEBUG: step:191
-2023-08-15 15:56:31,222 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:31,323 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:31,323 [my_agent_collector_code] DEBUG: step:192
-2023-08-15 15:56:31,324 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:31,425 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:31,425 [my_agent_collector_code] DEBUG: step:193
-2023-08-15 15:56:31,425 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:31,526 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:31,526 [my_agent_collector_code] DEBUG: step:194
-2023-08-15 15:56:31,527 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:31,627 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:31,627 [my_agent_collector_code] DEBUG: step:195
-2023-08-15 15:56:31,628 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:31,728 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:31,728 [my_agent_collector_code] DEBUG: step:196
-2023-08-15 15:56:31,728 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:31,830 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:31,831 [my_agent_collector_code] DEBUG: step:197
-2023-08-15 15:56:31,831 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:31,931 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:31,931 [my_agent_collector_code] DEBUG: step:198
-2023-08-15 15:56:31,931 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:32,032 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:32,032 [my_agent_collector_code] DEBUG: step:199
-2023-08-15 15:56:32,032 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:32,133 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:32,134 [my_agent_collector_code] DEBUG: step:200
-2023-08-15 15:56:32,134 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:32,235 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:32,235 [my_agent_collector_code] DEBUG: step:201
-2023-08-15 15:56:32,235 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:32,336 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:32,336 [my_agent_collector_code] DEBUG: step:202
-2023-08-15 15:56:32,336 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:32,437 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:32,437 [my_agent_collector_code] DEBUG: step:203
-2023-08-15 15:56:32,438 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:32,539 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:32,539 [my_agent_collector_code] DEBUG: step:204
-2023-08-15 15:56:32,539 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:32,639 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:32,639 [my_agent_collector_code] DEBUG: step:205
-2023-08-15 15:56:32,639 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:32,741 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:32,741 [my_agent_collector_code] DEBUG: step:206
-2023-08-15 15:56:32,741 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:32,842 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:32,843 [my_agent_collector_code] DEBUG: step:207
-2023-08-15 15:56:32,843 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:32,943 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:32,943 [my_agent_collector_code] DEBUG: step:208
-2023-08-15 15:56:32,943 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:33,044 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:33,044 [my_agent_collector_code] DEBUG: step:209
-2023-08-15 15:56:33,044 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:33,145 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:33,145 [my_agent_collector_code] DEBUG: step:210
-2023-08-15 15:56:33,145 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:33,245 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:33,245 [my_agent_collector_code] DEBUG: step:211
-2023-08-15 15:56:33,245 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:33,346 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:33,346 [my_agent_collector_code] DEBUG: step:212
-2023-08-15 15:56:33,346 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:33,447 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:33,447 [my_agent_collector_code] DEBUG: step:213
-2023-08-15 15:56:33,447 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:33,548 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:33,548 [my_agent_collector_code] DEBUG: step:214
-2023-08-15 15:56:33,549 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:33,649 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:33,649 [my_agent_collector_code] DEBUG: step:215
-2023-08-15 15:56:33,649 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:33,751 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:33,751 [my_agent_collector_code] DEBUG: step:216
-2023-08-15 15:56:33,751 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:33,852 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:33,852 [my_agent_collector_code] DEBUG: step:217
-2023-08-15 15:56:33,852 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:33,954 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:33,954 [my_agent_collector_code] DEBUG: step:218
-2023-08-15 15:56:33,954 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:34,054 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:34,054 [my_agent_collector_code] DEBUG: step:219
-2023-08-15 15:56:34,054 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:34,155 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:34,155 [my_agent_collector_code] DEBUG: step:220
-2023-08-15 15:56:34,155 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:34,257 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:34,257 [my_agent_collector_code] DEBUG: step:221
-2023-08-15 15:56:34,257 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:34,358 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:34,358 [my_agent_collector_code] DEBUG: step:222
-2023-08-15 15:56:34,358 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:34,459 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:34,459 [my_agent_collector_code] DEBUG: step:223
-2023-08-15 15:56:34,459 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:34,561 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:34,561 [my_agent_collector_code] DEBUG: step:224
-2023-08-15 15:56:34,561 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:34,662 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:34,662 [my_agent_collector_code] DEBUG: step:225
-2023-08-15 15:56:34,662 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:34,763 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:34,763 [my_agent_collector_code] DEBUG: step:226
-2023-08-15 15:56:34,763 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:34,864 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:34,864 [my_agent_collector_code] DEBUG: step:227
-2023-08-15 15:56:34,864 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:34,965 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:34,965 [my_agent_collector_code] DEBUG: step:228
-2023-08-15 15:56:34,965 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:35,065 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:35,066 [my_agent_collector_code] DEBUG: step:229
-2023-08-15 15:56:35,066 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:35,165 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:35,165 [my_agent_collector_code] DEBUG: step:230
-2023-08-15 15:56:35,165 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:35,266 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:35,266 [my_agent_collector_code] DEBUG: step:231
-2023-08-15 15:56:35,266 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:35,368 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:35,368 [my_agent_collector_code] DEBUG: step:232
-2023-08-15 15:56:35,368 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:35,469 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:35,469 [my_agent_collector_code] DEBUG: step:233
-2023-08-15 15:56:35,469 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:35,571 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:35,571 [my_agent_collector_code] DEBUG: step:234
-2023-08-15 15:56:35,572 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:35,672 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:35,672 [my_agent_collector_code] DEBUG: step:235
-2023-08-15 15:56:35,672 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:35,774 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:35,774 [my_agent_collector_code] DEBUG: step:236
-2023-08-15 15:56:35,774 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:35,874 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:35,874 [my_agent_collector_code] DEBUG: step:237
-2023-08-15 15:56:35,875 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:35,975 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:35,975 [my_agent_collector_code] DEBUG: step:238
-2023-08-15 15:56:35,975 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:36,074 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:36,075 [my_agent_collector_code] DEBUG: step:239
-2023-08-15 15:56:36,075 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:36,176 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:36,176 [my_agent_collector_code] DEBUG: step:240
-2023-08-15 15:56:36,176 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:36,277 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:36,278 [my_agent_collector_code] DEBUG: step:241
-2023-08-15 15:56:36,278 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:36,377 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:36,378 [my_agent_collector_code] DEBUG: step:242
-2023-08-15 15:56:36,378 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:36,478 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:36,478 [my_agent_collector_code] DEBUG: step:243
-2023-08-15 15:56:36,478 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:36,580 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:36,581 [my_agent_collector_code] DEBUG: step:244
-2023-08-15 15:56:36,581 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:36,669 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:36,669 [my_agent_collector_code] DEBUG: step:245
-2023-08-15 15:56:36,669 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:36,772 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:36,772 [my_agent_collector_code] DEBUG: step:246
-2023-08-15 15:56:36,772 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:36,885 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:36,885 [my_agent_collector_code] DEBUG: step:247
-2023-08-15 15:56:36,885 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:36,986 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:36,986 [my_agent_collector_code] DEBUG: step:248
-2023-08-15 15:56:36,987 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:37,087 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:37,087 [my_agent_collector_code] DEBUG: step:249
-2023-08-15 15:56:37,087 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:37,189 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:37,189 [my_agent_collector_code] DEBUG: step:250
-2023-08-15 15:56:37,190 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:37,290 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:37,290 [my_agent_collector_code] DEBUG: step:251
-2023-08-15 15:56:37,290 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:37,392 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:37,392 [my_agent_collector_code] DEBUG: step:252
-2023-08-15 15:56:37,392 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:37,484 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:37,484 [my_agent_collector_code] DEBUG: step:253
-2023-08-15 15:56:37,484 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:37,595 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:37,595 [my_agent_collector_code] DEBUG: step:254
-2023-08-15 15:56:37,595 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:37,697 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:37,697 [my_agent_collector_code] DEBUG: step:255
-2023-08-15 15:56:37,697 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:37,798 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:37,798 [my_agent_collector_code] DEBUG: step:256
-2023-08-15 15:56:37,798 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:37,899 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:37,899 [my_agent_collector_code] DEBUG: step:257
-2023-08-15 15:56:37,899 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:38,000 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:38,000 [my_agent_collector_code] DEBUG: step:258
-2023-08-15 15:56:38,000 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:38,102 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:38,102 [my_agent_collector_code] DEBUG: step:259
-2023-08-15 15:56:38,102 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:38,203 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:38,203 [my_agent_collector_code] DEBUG: step:260
-2023-08-15 15:56:38,203 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:38,304 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:38,304 [my_agent_collector_code] DEBUG: step:261
-2023-08-15 15:56:38,304 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:38,404 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:38,404 [my_agent_collector_code] DEBUG: step:262
-2023-08-15 15:56:38,404 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:38,505 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:38,506 [my_agent_collector_code] DEBUG: step:263
-2023-08-15 15:56:38,506 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:38,607 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:38,607 [my_agent_collector_code] DEBUG: step:264
-2023-08-15 15:56:38,608 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:38,708 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:38,708 [my_agent_collector_code] DEBUG: step:265
-2023-08-15 15:56:38,708 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:38,809 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:38,809 [my_agent_collector_code] DEBUG: step:266
-2023-08-15 15:56:38,809 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:38,911 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:38,911 [my_agent_collector_code] DEBUG: step:267
-2023-08-15 15:56:38,911 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:39,012 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:39,012 [my_agent_collector_code] DEBUG: step:268
-2023-08-15 15:56:39,012 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:39,114 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:39,114 [my_agent_collector_code] DEBUG: step:269
-2023-08-15 15:56:39,114 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:39,215 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:39,215 [my_agent_collector_code] DEBUG: step:270
-2023-08-15 15:56:39,216 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:39,317 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:39,317 [my_agent_collector_code] DEBUG: step:271
-2023-08-15 15:56:39,318 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:39,418 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:39,419 [my_agent_collector_code] DEBUG: step:272
-2023-08-15 15:56:39,419 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:39,519 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:39,519 [my_agent_collector_code] DEBUG: step:273
-2023-08-15 15:56:39,519 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:39,621 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:39,621 [my_agent_collector_code] DEBUG: step:274
-2023-08-15 15:56:39,622 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:39,722 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:39,722 [my_agent_collector_code] DEBUG: step:275
-2023-08-15 15:56:39,722 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:39,823 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:39,823 [my_agent_collector_code] DEBUG: step:276
-2023-08-15 15:56:39,823 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:39,923 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:39,924 [my_agent_collector_code] DEBUG: step:277
-2023-08-15 15:56:39,924 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:40,025 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:40,025 [my_agent_collector_code] DEBUG: step:278
-2023-08-15 15:56:40,025 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:40,125 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:40,125 [my_agent_collector_code] DEBUG: step:279
-2023-08-15 15:56:40,125 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:40,226 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:40,226 [my_agent_collector_code] DEBUG: step:280
-2023-08-15 15:56:40,226 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:40,327 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:40,327 [my_agent_collector_code] DEBUG: step:281
-2023-08-15 15:56:40,327 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:40,429 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:40,429 [my_agent_collector_code] DEBUG: step:282
-2023-08-15 15:56:40,429 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:40,516 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:40,516 [my_agent_collector_code] DEBUG: step:283
-2023-08-15 15:56:40,516 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:40,618 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:40,618 [my_agent_collector_code] DEBUG: step:284
-2023-08-15 15:56:40,618 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:40,719 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:40,719 [my_agent_collector_code] DEBUG: step:285
-2023-08-15 15:56:40,719 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:40,834 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:40,834 [my_agent_collector_code] DEBUG: step:286
-2023-08-15 15:56:40,834 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:40,936 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:40,936 [my_agent_collector_code] DEBUG: step:287
-2023-08-15 15:56:40,936 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:41,036 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:41,037 [my_agent_collector_code] DEBUG: step:288
-2023-08-15 15:56:41,037 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:41,136 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:41,136 [my_agent_collector_code] DEBUG: step:289
-2023-08-15 15:56:41,136 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:41,227 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:41,227 [my_agent_collector_code] DEBUG: step:290
-2023-08-15 15:56:41,227 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:41,340 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:41,340 [my_agent_collector_code] DEBUG: step:291
-2023-08-15 15:56:41,340 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:41,442 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:41,442 [my_agent_collector_code] DEBUG: step:292
-2023-08-15 15:56:41,442 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:41,543 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:41,543 [my_agent_collector_code] DEBUG: step:293
-2023-08-15 15:56:41,543 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:41,644 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:41,644 [my_agent_collector_code] DEBUG: step:294
-2023-08-15 15:56:41,644 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:41,745 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:41,745 [my_agent_collector_code] DEBUG: step:295
-2023-08-15 15:56:41,745 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:41,845 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:41,846 [my_agent_collector_code] DEBUG: step:296
-2023-08-15 15:56:41,846 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:41,947 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:41,948 [my_agent_collector_code] DEBUG: step:297
-2023-08-15 15:56:41,948 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:42,049 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:42,049 [my_agent_collector_code] DEBUG: step:298
-2023-08-15 15:56:42,049 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:42,150 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:42,150 [my_agent_collector_code] DEBUG: step:299
-2023-08-15 15:56:42,150 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:42,252 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:42,252 [my_agent_collector_code] DEBUG: step:300
-2023-08-15 15:56:42,252 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:42,352 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:42,353 [my_agent_collector_code] DEBUG: step:301
-2023-08-15 15:56:42,353 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:42,453 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:42,454 [my_agent_collector_code] DEBUG: step:302
-2023-08-15 15:56:42,454 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:42,556 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:42,556 [my_agent_collector_code] DEBUG: step:303
-2023-08-15 15:56:42,556 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:42,657 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:42,658 [my_agent_collector_code] DEBUG: step:304
-2023-08-15 15:56:42,658 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:42,760 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:42,760 [my_agent_collector_code] DEBUG: step:305
-2023-08-15 15:56:42,760 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:42,862 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:42,862 [my_agent_collector_code] DEBUG: step:306
-2023-08-15 15:56:42,862 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:42,963 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:42,963 [my_agent_collector_code] DEBUG: step:307
-2023-08-15 15:56:42,963 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:43,065 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:43,065 [my_agent_collector_code] DEBUG: step:308
-2023-08-15 15:56:43,065 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:43,165 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:43,166 [my_agent_collector_code] DEBUG: step:309
-2023-08-15 15:56:43,166 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:43,267 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:43,267 [my_agent_collector_code] DEBUG: step:310
-2023-08-15 15:56:43,267 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:43,369 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:43,369 [my_agent_collector_code] DEBUG: step:311
-2023-08-15 15:56:43,369 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:43,469 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:43,470 [my_agent_collector_code] DEBUG: step:312
-2023-08-15 15:56:43,470 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:43,571 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:43,571 [my_agent_collector_code] DEBUG: step:313
-2023-08-15 15:56:43,571 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:43,671 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:43,671 [my_agent_collector_code] DEBUG: step:314
-2023-08-15 15:56:43,671 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:43,772 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:43,772 [my_agent_collector_code] DEBUG: step:315
-2023-08-15 15:56:43,772 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:43,874 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:43,874 [my_agent_collector_code] DEBUG: step:316
-2023-08-15 15:56:43,874 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:43,975 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:43,975 [my_agent_collector_code] DEBUG: step:317
-2023-08-15 15:56:43,975 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:44,076 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:44,076 [my_agent_collector_code] DEBUG: step:318
-2023-08-15 15:56:44,076 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:44,178 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:44,178 [my_agent_collector_code] DEBUG: step:319
-2023-08-15 15:56:44,179 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:44,279 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:44,279 [my_agent_collector_code] DEBUG: step:320
-2023-08-15 15:56:44,279 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:44,378 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:44,378 [my_agent_collector_code] DEBUG: step:321
-2023-08-15 15:56:44,378 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:44,479 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:44,479 [my_agent_collector_code] DEBUG: step:322
-2023-08-15 15:56:44,479 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:44,580 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:44,581 [my_agent_collector_code] DEBUG: step:323
-2023-08-15 15:56:44,581 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:44,682 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:44,682 [my_agent_collector_code] DEBUG: step:324
-2023-08-15 15:56:44,682 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:44,783 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:44,783 [my_agent_collector_code] DEBUG: step:325
-2023-08-15 15:56:44,783 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:44,884 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:44,885 [my_agent_collector_code] DEBUG: step:326
-2023-08-15 15:56:44,885 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:44,985 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:44,986 [my_agent_collector_code] DEBUG: step:327
-2023-08-15 15:56:44,986 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:45,087 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:45,087 [my_agent_collector_code] DEBUG: step:328
-2023-08-15 15:56:45,087 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:45,189 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:45,190 [my_agent_collector_code] DEBUG: step:329
-2023-08-15 15:56:45,190 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:45,291 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:45,291 [my_agent_collector_code] DEBUG: step:330
-2023-08-15 15:56:45,291 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:45,391 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:45,392 [my_agent_collector_code] DEBUG: step:331
-2023-08-15 15:56:45,392 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:45,493 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:45,493 [my_agent_collector_code] DEBUG: step:332
-2023-08-15 15:56:45,493 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:45,592 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:45,593 [my_agent_collector_code] DEBUG: step:333
-2023-08-15 15:56:45,593 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:45,692 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:45,693 [my_agent_collector_code] DEBUG: step:334
-2023-08-15 15:56:45,693 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:45,793 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:45,794 [my_agent_collector_code] DEBUG: step:335
-2023-08-15 15:56:45,794 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:45,896 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:45,897 [my_agent_collector_code] DEBUG: step:336
-2023-08-15 15:56:45,897 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:45,996 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:45,997 [my_agent_collector_code] DEBUG: step:337
-2023-08-15 15:56:45,997 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:46,098 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:46,098 [my_agent_collector_code] DEBUG: step:338
-2023-08-15 15:56:46,098 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:46,199 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:46,200 [my_agent_collector_code] DEBUG: step:339
-2023-08-15 15:56:46,200 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:46,301 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:46,301 [my_agent_collector_code] DEBUG: step:340
-2023-08-15 15:56:46,301 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:46,402 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:46,402 [my_agent_collector_code] DEBUG: step:341
-2023-08-15 15:56:46,402 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:46,504 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:46,504 [my_agent_collector_code] DEBUG: step:342
-2023-08-15 15:56:46,504 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:46,605 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:46,605 [my_agent_collector_code] DEBUG: step:343
-2023-08-15 15:56:46,605 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:46,704 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:46,705 [my_agent_collector_code] DEBUG: step:344
-2023-08-15 15:56:46,705 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:46,793 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:46,793 [my_agent_collector_code] DEBUG: step:345
-2023-08-15 15:56:46,793 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:46,907 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:46,907 [my_agent_collector_code] DEBUG: step:346
-2023-08-15 15:56:46,907 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:47,009 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:47,009 [my_agent_collector_code] DEBUG: step:347
-2023-08-15 15:56:47,009 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:47,110 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:47,111 [my_agent_collector_code] DEBUG: step:348
-2023-08-15 15:56:47,111 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:47,212 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:47,212 [my_agent_collector_code] DEBUG: step:349
-2023-08-15 15:56:47,212 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:47,312 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:47,313 [my_agent_collector_code] DEBUG: step:350
-2023-08-15 15:56:47,313 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:47,413 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:47,414 [my_agent_collector_code] DEBUG: step:351
-2023-08-15 15:56:47,414 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:47,514 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:47,514 [my_agent_collector_code] DEBUG: step:352
-2023-08-15 15:56:47,514 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:47,615 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:47,615 [my_agent_collector_code] DEBUG: step:353
-2023-08-15 15:56:47,615 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:47,716 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:47,716 [my_agent_collector_code] DEBUG: step:354
-2023-08-15 15:56:47,716 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:47,818 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:47,818 [my_agent_collector_code] DEBUG: step:355
-2023-08-15 15:56:47,819 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:47,919 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:47,919 [my_agent_collector_code] DEBUG: step:356
-2023-08-15 15:56:47,919 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:48,020 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:48,021 [my_agent_collector_code] DEBUG: step:357
-2023-08-15 15:56:48,021 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:48,122 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:48,122 [my_agent_collector_code] DEBUG: step:358
-2023-08-15 15:56:48,122 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:48,223 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:48,223 [my_agent_collector_code] DEBUG: step:359
-2023-08-15 15:56:48,223 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:48,325 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:48,325 [my_agent_collector_code] DEBUG: step:360
-2023-08-15 15:56:48,325 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:48,419 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:48,420 [my_agent_collector_code] DEBUG: step:361
-2023-08-15 15:56:48,420 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:48,527 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:48,527 [my_agent_collector_code] DEBUG: step:362
-2023-08-15 15:56:48,527 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:48,627 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:48,628 [my_agent_collector_code] DEBUG: step:363
-2023-08-15 15:56:48,628 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:48,730 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:48,731 [my_agent_collector_code] DEBUG: step:364
-2023-08-15 15:56:48,731 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:48,831 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:48,831 [my_agent_collector_code] DEBUG: step:365
-2023-08-15 15:56:48,831 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:48,932 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:48,932 [my_agent_collector_code] DEBUG: step:366
-2023-08-15 15:56:48,932 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:49,032 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:49,033 [my_agent_collector_code] DEBUG: step:367
-2023-08-15 15:56:49,033 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:49,133 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:49,134 [my_agent_collector_code] DEBUG: step:368
-2023-08-15 15:56:49,134 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:49,234 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:49,235 [my_agent_collector_code] DEBUG: step:369
-2023-08-15 15:56:49,235 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:49,335 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:49,335 [my_agent_collector_code] DEBUG: step:370
-2023-08-15 15:56:49,335 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:49,436 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:49,436 [my_agent_collector_code] DEBUG: step:371
-2023-08-15 15:56:49,436 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:49,537 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:49,538 [my_agent_collector_code] DEBUG: step:372
-2023-08-15 15:56:49,538 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:49,638 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:49,638 [my_agent_collector_code] DEBUG: step:373
-2023-08-15 15:56:49,638 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:49,740 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:49,740 [my_agent_collector_code] DEBUG: step:374
-2023-08-15 15:56:49,740 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:49,842 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:49,842 [my_agent_collector_code] DEBUG: step:375
-2023-08-15 15:56:49,843 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:49,943 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:49,944 [my_agent_collector_code] DEBUG: step:376
-2023-08-15 15:56:49,944 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:50,045 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:50,045 [my_agent_collector_code] DEBUG: step:377
-2023-08-15 15:56:50,045 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:50,146 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:50,146 [my_agent_collector_code] DEBUG: step:378
-2023-08-15 15:56:50,146 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:50,248 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:50,248 [my_agent_collector_code] DEBUG: step:379
-2023-08-15 15:56:50,248 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:50,349 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:50,350 [my_agent_collector_code] DEBUG: step:380
-2023-08-15 15:56:50,350 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:50,451 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:50,452 [my_agent_collector_code] DEBUG: step:381
-2023-08-15 15:56:50,452 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:50,553 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:50,554 [my_agent_collector_code] DEBUG: step:382
-2023-08-15 15:56:50,554 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:50,655 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:50,655 [my_agent_collector_code] DEBUG: step:383
-2023-08-15 15:56:50,655 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:50,755 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:50,756 [my_agent_collector_code] DEBUG: step:384
-2023-08-15 15:56:50,756 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:50,857 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:50,857 [my_agent_collector_code] DEBUG: step:385
-2023-08-15 15:56:50,858 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:50,957 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:50,958 [my_agent_collector_code] DEBUG: step:386
-2023-08-15 15:56:50,958 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:51,058 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:51,059 [my_agent_collector_code] DEBUG: step:387
-2023-08-15 15:56:51,059 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:51,158 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:51,159 [my_agent_collector_code] DEBUG: step:388
-2023-08-15 15:56:51,159 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:51,259 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:51,260 [my_agent_collector_code] DEBUG: step:389
-2023-08-15 15:56:51,260 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:51,361 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:51,362 [my_agent_collector_code] DEBUG: step:390
-2023-08-15 15:56:51,362 [my_agent_collector_code] DEBUG: action:LEFT
-2023-08-15 15:56:51,462 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:51,463 [my_agent_collector_code] DEBUG: step:391
-2023-08-15 15:56:51,463 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:51,563 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:51,564 [my_agent_collector_code] DEBUG: step:392
-2023-08-15 15:56:51,564 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:51,665 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:51,666 [my_agent_collector_code] DEBUG: step:393
-2023-08-15 15:56:51,666 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:51,766 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:51,767 [my_agent_collector_code] DEBUG: step:394
-2023-08-15 15:56:51,767 [my_agent_collector_code] DEBUG: action:WAIT
-2023-08-15 15:56:51,867 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:51,867 [my_agent_collector_code] DEBUG: step:395
-2023-08-15 15:56:51,868 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:51,968 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:51,968 [my_agent_collector_code] DEBUG: step:396
-2023-08-15 15:56:51,968 [my_agent_collector_code] DEBUG: action:DOWN
-2023-08-15 15:56:52,068 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:52,069 [my_agent_collector_code] DEBUG: step:397
-2023-08-15 15:56:52,069 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:52,168 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:52,168 [my_agent_collector_code] DEBUG: step:398
-2023-08-15 15:56:52,169 [my_agent_collector_code] DEBUG: action:UP
-2023-08-15 15:56:52,269 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:52,269 [my_agent_collector_code] DEBUG: step:399
-2023-08-15 15:56:52,269 [my_agent_collector_code] DEBUG: action:RIGHT
-2023-08-15 15:56:52,364 [my_agent_collector_code] DEBUG: Querying model for action.
-2023-08-15 15:56:52,364 [my_agent_collector_code] DEBUG: step:400
-2023-08-15 15:56:52,364 [my_agent_collector_code] DEBUG: action:RIGHT
+2023-09-09 15:39:50,491 [my_agent_collector_code] INFO: Setting up model from scratch.
+2023-09-09 15:39:50,519 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:50,519 [my_agent_collector_code] DEBUG: step:1
+2023-09-09 15:39:50,519 [my_agent_collector_code] DEBUG: action:RIGHT
+2023-09-09 15:39:50,637 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:50,638 [my_agent_collector_code] DEBUG: step:2
+2023-09-09 15:39:50,638 [my_agent_collector_code] DEBUG: action:DOWN
+2023-09-09 15:39:50,734 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:50,735 [my_agent_collector_code] DEBUG: step:3
+2023-09-09 15:39:50,735 [my_agent_collector_code] DEBUG: action:WAIT
+2023-09-09 15:39:50,835 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:50,835 [my_agent_collector_code] DEBUG: step:4
+2023-09-09 15:39:50,836 [my_agent_collector_code] DEBUG: action:WAIT
+2023-09-09 15:39:50,924 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:50,925 [my_agent_collector_code] DEBUG: step:5
+2023-09-09 15:39:50,925 [my_agent_collector_code] DEBUG: action:WAIT
+2023-09-09 15:39:51,036 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:51,036 [my_agent_collector_code] DEBUG: step:6
+2023-09-09 15:39:51,037 [my_agent_collector_code] DEBUG: action:WAIT
+2023-09-09 15:39:51,143 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:51,143 [my_agent_collector_code] DEBUG: step:7
+2023-09-09 15:39:51,144 [my_agent_collector_code] DEBUG: action:WAIT
+2023-09-09 15:39:51,228 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:51,228 [my_agent_collector_code] DEBUG: step:8
+2023-09-09 15:39:51,228 [my_agent_collector_code] DEBUG: action:WAIT
+2023-09-09 15:39:51,340 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:51,340 [my_agent_collector_code] DEBUG: step:9
+2023-09-09 15:39:51,340 [my_agent_collector_code] DEBUG: action:LEFT
+2023-09-09 15:39:51,442 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:51,442 [my_agent_collector_code] DEBUG: step:10
+2023-09-09 15:39:51,442 [my_agent_collector_code] DEBUG: action:DOWN
+2023-09-09 15:39:51,544 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:51,544 [my_agent_collector_code] DEBUG: step:11
+2023-09-09 15:39:51,545 [my_agent_collector_code] DEBUG: action:RIGHT
+2023-09-09 15:39:51,644 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:51,645 [my_agent_collector_code] DEBUG: step:12
+2023-09-09 15:39:51,645 [my_agent_collector_code] DEBUG: action:LEFT
+2023-09-09 15:39:51,747 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:51,748 [my_agent_collector_code] DEBUG: step:13
+2023-09-09 15:39:51,748 [my_agent_collector_code] DEBUG: action:WAIT
+2023-09-09 15:39:51,849 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:51,850 [my_agent_collector_code] DEBUG: step:14
+2023-09-09 15:39:51,850 [my_agent_collector_code] DEBUG: action:WAIT
+2023-09-09 15:39:51,950 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:51,950 [my_agent_collector_code] DEBUG: step:15
+2023-09-09 15:39:51,951 [my_agent_collector_code] DEBUG: action:RIGHT
+2023-09-09 15:39:52,044 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:52,044 [my_agent_collector_code] DEBUG: step:16
+2023-09-09 15:39:52,044 [my_agent_collector_code] DEBUG: action:LEFT
+2023-09-09 15:39:52,153 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:52,154 [my_agent_collector_code] DEBUG: step:17
+2023-09-09 15:39:52,154 [my_agent_collector_code] DEBUG: action:UP
+2023-09-09 15:39:52,254 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:52,255 [my_agent_collector_code] DEBUG: step:18
+2023-09-09 15:39:52,255 [my_agent_collector_code] DEBUG: action:WAIT
+2023-09-09 15:39:52,343 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:52,343 [my_agent_collector_code] DEBUG: step:19
+2023-09-09 15:39:52,343 [my_agent_collector_code] DEBUG: action:LEFT
+2023-09-09 15:39:52,456 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:52,456 [my_agent_collector_code] DEBUG: step:20
+2023-09-09 15:39:52,456 [my_agent_collector_code] DEBUG: action:LEFT
+2023-09-09 15:39:52,558 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:52,558 [my_agent_collector_code] DEBUG: step:21
+2023-09-09 15:39:52,558 [my_agent_collector_code] DEBUG: action:DOWN
+2023-09-09 15:39:52,659 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:52,659 [my_agent_collector_code] DEBUG: step:22
+2023-09-09 15:39:52,660 [my_agent_collector_code] DEBUG: action:UP
+2023-09-09 15:39:52,747 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:52,747 [my_agent_collector_code] DEBUG: step:23
+2023-09-09 15:39:52,747 [my_agent_collector_code] DEBUG: action:WAIT
+2023-09-09 15:39:52,862 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:52,862 [my_agent_collector_code] DEBUG: step:24
+2023-09-09 15:39:52,863 [my_agent_collector_code] DEBUG: action:LEFT
+2023-09-09 15:39:52,964 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:52,964 [my_agent_collector_code] DEBUG: step:25
+2023-09-09 15:39:52,964 [my_agent_collector_code] DEBUG: action:DOWN
+2023-09-09 15:39:53,053 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:53,053 [my_agent_collector_code] DEBUG: step:26
+2023-09-09 15:39:53,053 [my_agent_collector_code] DEBUG: action:LEFT
+2023-09-09 15:39:53,167 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:53,167 [my_agent_collector_code] DEBUG: step:27
+2023-09-09 15:39:53,168 [my_agent_collector_code] DEBUG: action:UP
+2023-09-09 15:39:53,257 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:53,257 [my_agent_collector_code] DEBUG: step:28
+2023-09-09 15:39:53,257 [my_agent_collector_code] DEBUG: action:DOWN
+2023-09-09 15:39:53,369 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:53,369 [my_agent_collector_code] DEBUG: step:29
+2023-09-09 15:39:53,370 [my_agent_collector_code] DEBUG: action:DOWN
+2023-09-09 15:39:53,470 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:53,471 [my_agent_collector_code] DEBUG: step:30
+2023-09-09 15:39:53,471 [my_agent_collector_code] DEBUG: action:RIGHT
+2023-09-09 15:39:53,572 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:53,573 [my_agent_collector_code] DEBUG: step:31
+2023-09-09 15:39:53,573 [my_agent_collector_code] DEBUG: action:RIGHT
+2023-09-09 15:39:53,674 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:53,674 [my_agent_collector_code] DEBUG: step:32
+2023-09-09 15:39:53,675 [my_agent_collector_code] DEBUG: action:DOWN
+2023-09-09 15:39:53,776 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:53,776 [my_agent_collector_code] DEBUG: step:33
+2023-09-09 15:39:53,777 [my_agent_collector_code] DEBUG: action:DOWN
+2023-09-09 15:39:53,877 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:53,877 [my_agent_collector_code] DEBUG: step:34
+2023-09-09 15:39:53,878 [my_agent_collector_code] DEBUG: action:WAIT
+2023-09-09 15:39:53,979 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:53,979 [my_agent_collector_code] DEBUG: step:35
+2023-09-09 15:39:53,979 [my_agent_collector_code] DEBUG: action:WAIT
+2023-09-09 15:39:54,080 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:54,080 [my_agent_collector_code] DEBUG: step:36
+2023-09-09 15:39:54,080 [my_agent_collector_code] DEBUG: action:WAIT
+2023-09-09 15:39:54,180 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:54,180 [my_agent_collector_code] DEBUG: step:37
+2023-09-09 15:39:54,181 [my_agent_collector_code] DEBUG: action:WAIT
+2023-09-09 15:39:54,282 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:54,282 [my_agent_collector_code] DEBUG: step:38
+2023-09-09 15:39:54,283 [my_agent_collector_code] DEBUG: action:WAIT
+2023-09-09 15:39:54,383 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:54,384 [my_agent_collector_code] DEBUG: step:39
+2023-09-09 15:39:54,384 [my_agent_collector_code] DEBUG: action:DOWN
+2023-09-09 15:39:54,485 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:54,485 [my_agent_collector_code] DEBUG: step:40
+2023-09-09 15:39:54,486 [my_agent_collector_code] DEBUG: action:DOWN
+2023-09-09 15:39:54,586 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:54,587 [my_agent_collector_code] DEBUG: step:41
+2023-09-09 15:39:54,587 [my_agent_collector_code] DEBUG: action:LEFT
+2023-09-09 15:39:54,687 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:54,687 [my_agent_collector_code] DEBUG: step:42
+2023-09-09 15:39:54,688 [my_agent_collector_code] DEBUG: action:DOWN
+2023-09-09 15:39:54,789 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:54,789 [my_agent_collector_code] DEBUG: step:43
+2023-09-09 15:39:54,789 [my_agent_collector_code] DEBUG: action:LEFT
+2023-09-09 15:39:54,889 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:54,890 [my_agent_collector_code] DEBUG: step:44
+2023-09-09 15:39:54,890 [my_agent_collector_code] DEBUG: action:RIGHT
+2023-09-09 15:39:54,992 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:54,992 [my_agent_collector_code] DEBUG: step:45
+2023-09-09 15:39:54,992 [my_agent_collector_code] DEBUG: action:WAIT
+2023-09-09 15:39:55,081 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:55,081 [my_agent_collector_code] DEBUG: step:46
+2023-09-09 15:39:55,081 [my_agent_collector_code] DEBUG: action:RIGHT
+2023-09-09 15:39:55,194 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:55,194 [my_agent_collector_code] DEBUG: step:47
+2023-09-09 15:39:55,194 [my_agent_collector_code] DEBUG: action:DOWN
+2023-09-09 15:39:55,296 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:55,296 [my_agent_collector_code] DEBUG: step:48
+2023-09-09 15:39:55,297 [my_agent_collector_code] DEBUG: action:RIGHT
+2023-09-09 15:39:55,391 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:55,391 [my_agent_collector_code] DEBUG: step:49
+2023-09-09 15:39:55,391 [my_agent_collector_code] DEBUG: action:RIGHT
+2023-09-09 15:39:55,499 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:55,499 [my_agent_collector_code] DEBUG: step:50
+2023-09-09 15:39:55,500 [my_agent_collector_code] DEBUG: action:LEFT
+2023-09-09 15:39:55,600 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:55,601 [my_agent_collector_code] DEBUG: step:51
+2023-09-09 15:39:55,601 [my_agent_collector_code] DEBUG: action:WAIT
+2023-09-09 15:39:55,702 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:55,702 [my_agent_collector_code] DEBUG: step:52
+2023-09-09 15:39:55,702 [my_agent_collector_code] DEBUG: action:DOWN
+2023-09-09 15:39:55,793 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:55,793 [my_agent_collector_code] DEBUG: step:53
+2023-09-09 15:39:55,793 [my_agent_collector_code] DEBUG: action:LEFT
+2023-09-09 15:39:55,892 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:55,892 [my_agent_collector_code] DEBUG: step:54
+2023-09-09 15:39:55,893 [my_agent_collector_code] DEBUG: action:DOWN
+2023-09-09 15:39:56,007 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:56,007 [my_agent_collector_code] DEBUG: step:55
+2023-09-09 15:39:56,008 [my_agent_collector_code] DEBUG: action:LEFT
+2023-09-09 15:39:56,108 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:56,108 [my_agent_collector_code] DEBUG: step:56
+2023-09-09 15:39:56,109 [my_agent_collector_code] DEBUG: action:DOWN
+2023-09-09 15:39:56,210 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:56,210 [my_agent_collector_code] DEBUG: step:57
+2023-09-09 15:39:56,210 [my_agent_collector_code] DEBUG: action:UP
+2023-09-09 15:39:56,312 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:56,313 [my_agent_collector_code] DEBUG: step:58
+2023-09-09 15:39:56,313 [my_agent_collector_code] DEBUG: action:RIGHT
+2023-09-09 15:39:56,414 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:56,414 [my_agent_collector_code] DEBUG: step:59
+2023-09-09 15:39:56,415 [my_agent_collector_code] DEBUG: action:RIGHT
+2023-09-09 15:39:56,514 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:56,514 [my_agent_collector_code] DEBUG: step:60
+2023-09-09 15:39:56,515 [my_agent_collector_code] DEBUG: action:WAIT
+2023-09-09 15:39:56,616 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:56,616 [my_agent_collector_code] DEBUG: step:61
+2023-09-09 15:39:56,617 [my_agent_collector_code] DEBUG: action:WAIT
+2023-09-09 15:39:56,717 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:56,717 [my_agent_collector_code] DEBUG: step:62
+2023-09-09 15:39:56,717 [my_agent_collector_code] DEBUG: action:RIGHT
+2023-09-09 15:39:56,819 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:56,819 [my_agent_collector_code] DEBUG: step:63
+2023-09-09 15:39:56,819 [my_agent_collector_code] DEBUG: action:LEFT
+2023-09-09 15:39:56,920 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:56,920 [my_agent_collector_code] DEBUG: step:64
+2023-09-09 15:39:56,921 [my_agent_collector_code] DEBUG: action:RIGHT
+2023-09-09 15:39:57,022 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:57,022 [my_agent_collector_code] DEBUG: step:65
+2023-09-09 15:39:57,022 [my_agent_collector_code] DEBUG: action:RIGHT
+2023-09-09 15:39:57,122 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:57,123 [my_agent_collector_code] DEBUG: step:66
+2023-09-09 15:39:57,123 [my_agent_collector_code] DEBUG: action:LEFT
+2023-09-09 15:39:57,224 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:57,224 [my_agent_collector_code] DEBUG: step:67
+2023-09-09 15:39:57,224 [my_agent_collector_code] DEBUG: action:WAIT
+2023-09-09 15:39:57,326 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:57,326 [my_agent_collector_code] DEBUG: step:68
+2023-09-09 15:39:57,327 [my_agent_collector_code] DEBUG: action:LEFT
+2023-09-09 15:39:57,427 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:57,427 [my_agent_collector_code] DEBUG: step:69
+2023-09-09 15:39:57,428 [my_agent_collector_code] DEBUG: action:LEFT
+2023-09-09 15:39:57,529 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:57,529 [my_agent_collector_code] DEBUG: step:70
+2023-09-09 15:39:57,530 [my_agent_collector_code] DEBUG: action:WAIT
+2023-09-09 15:39:57,630 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:57,630 [my_agent_collector_code] DEBUG: step:71
+2023-09-09 15:39:57,630 [my_agent_collector_code] DEBUG: action:UP
+2023-09-09 15:39:57,731 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:57,731 [my_agent_collector_code] DEBUG: step:72
+2023-09-09 15:39:57,732 [my_agent_collector_code] DEBUG: action:LEFT
+2023-09-09 15:39:57,833 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:57,833 [my_agent_collector_code] DEBUG: step:73
+2023-09-09 15:39:57,833 [my_agent_collector_code] DEBUG: action:WAIT
+2023-09-09 15:39:57,935 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:57,935 [my_agent_collector_code] DEBUG: step:74
+2023-09-09 15:39:57,935 [my_agent_collector_code] DEBUG: action:UP
+2023-09-09 15:39:58,036 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:58,036 [my_agent_collector_code] DEBUG: step:75
+2023-09-09 15:39:58,036 [my_agent_collector_code] DEBUG: action:LEFT
+2023-09-09 15:39:58,128 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:58,129 [my_agent_collector_code] DEBUG: step:76
+2023-09-09 15:39:58,129 [my_agent_collector_code] DEBUG: action:LEFT
+2023-09-09 15:39:58,238 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:58,238 [my_agent_collector_code] DEBUG: step:77
+2023-09-09 15:39:58,238 [my_agent_collector_code] DEBUG: action:DOWN
+2023-09-09 15:39:58,340 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:58,340 [my_agent_collector_code] DEBUG: step:78
+2023-09-09 15:39:58,340 [my_agent_collector_code] DEBUG: action:LEFT
+2023-09-09 15:39:58,441 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:58,441 [my_agent_collector_code] DEBUG: step:79
+2023-09-09 15:39:58,442 [my_agent_collector_code] DEBUG: action:RIGHT
+2023-09-09 15:39:58,543 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:58,543 [my_agent_collector_code] DEBUG: step:80
+2023-09-09 15:39:58,543 [my_agent_collector_code] DEBUG: action:WAIT
+2023-09-09 15:39:58,643 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:58,643 [my_agent_collector_code] DEBUG: step:81
+2023-09-09 15:39:58,643 [my_agent_collector_code] DEBUG: action:WAIT
+2023-09-09 15:39:58,744 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:58,744 [my_agent_collector_code] DEBUG: step:82
+2023-09-09 15:39:58,744 [my_agent_collector_code] DEBUG: action:DOWN
+2023-09-09 15:39:58,848 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:58,848 [my_agent_collector_code] DEBUG: step:83
+2023-09-09 15:39:58,848 [my_agent_collector_code] DEBUG: action:UP
+2023-09-09 15:39:58,949 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:58,950 [my_agent_collector_code] DEBUG: step:84
+2023-09-09 15:39:58,950 [my_agent_collector_code] DEBUG: action:UP
+2023-09-09 15:39:59,050 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:59,050 [my_agent_collector_code] DEBUG: step:85
+2023-09-09 15:39:59,051 [my_agent_collector_code] DEBUG: action:UP
+2023-09-09 15:39:59,151 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:59,151 [my_agent_collector_code] DEBUG: step:86
+2023-09-09 15:39:59,152 [my_agent_collector_code] DEBUG: action:UP
+2023-09-09 15:39:59,238 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:59,238 [my_agent_collector_code] DEBUG: step:87
+2023-09-09 15:39:59,238 [my_agent_collector_code] DEBUG: action:WAIT
+2023-09-09 15:39:59,346 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:59,347 [my_agent_collector_code] DEBUG: step:88
+2023-09-09 15:39:59,347 [my_agent_collector_code] DEBUG: action:LEFT
+2023-09-09 15:39:59,447 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:59,447 [my_agent_collector_code] DEBUG: step:89
+2023-09-09 15:39:59,447 [my_agent_collector_code] DEBUG: action:WAIT
+2023-09-09 15:39:59,553 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:59,554 [my_agent_collector_code] DEBUG: step:90
+2023-09-09 15:39:59,554 [my_agent_collector_code] DEBUG: action:WAIT
+2023-09-09 15:39:59,647 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:59,647 [my_agent_collector_code] DEBUG: step:91
+2023-09-09 15:39:59,647 [my_agent_collector_code] DEBUG: action:RIGHT
+2023-09-09 15:39:59,751 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:59,752 [my_agent_collector_code] DEBUG: step:92
+2023-09-09 15:39:59,752 [my_agent_collector_code] DEBUG: action:DOWN
+2023-09-09 15:39:59,860 [my_agent_collector_code] DEBUG: Querying model for action.
+2023-09-09 15:39:59,860 [my_agent_collector_code] DEBUG: step:93
+2023-09-09 15:39:59,861 [my_agent_collector_code] DEBUG: action:LEFT
