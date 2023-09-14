@@ -51,24 +51,13 @@ def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_
     self.logger.debug(f'Encountered game event(s) {", ".join(map(repr, events))} in step {new_game_state["step"]}')
 
     # Idea: Add your own events to hand out rewards
-    #if old_game_state["self"][1] == new_game_state["self"][1]:
-    #    events.append(PLACEHOLDER_EVENT)
+    if old_game_state["self"][1] == new_game_state["self"][1]:
+        events.append(PLACEHOLDER_EVENT)
+    self.model.train_step(old_game_state, self_action, new_game_state, reward_from_events(self, events))
 
     # state_to_features is defined in callbacks.py
     self.transitions.append(Transition(state_to_features(old_game_state), self_action, state_to_features(new_game_state), reward_from_events(self, events)))
-    # Check coins in the agent's vicinity
-    coins_nearby = count_coins_in_vicinity(new_game_state, radius=3)  # you can set the radius as you like
-    if coins_nearby > 1:  # if there's more than one coin nearby, give a reward
-        reward = 0  # Initialize reward
-        reward += coins_nearby * 50  # for example, give a reward of 50 for each coin in vicinity
 
-
-def count_coins_in_vicinity(game_state, radius):
-    """Count coins in the agent's vicinity."""
-    agent_position = game_state["self"][3]
-    coins = game_state["coins"]
-    coins_in_vicinity = [coin for coin in coins if max(abs(agent_position[0] - coin[0]), abs(agent_position[1] - coin[1])) <= radius]
-    return len(coins_in_vicinity)
 
 def end_of_round(self, last_game_state: dict, last_action: str, events: List[str]):
     """
@@ -99,27 +88,22 @@ def reward_from_events(self, events: List[str]) -> int:
     certain behavior.
     """
     game_rewards = {
-        e.COIN_COLLECTED: 50,
+        e.COIN_COLLECTED: 15,
 
         #e.KILLED_OPPONENT: 5,
         PLACEHOLDER_EVENT: -10,  # idea: the custom event is bad
-        # e.MOVED_UP: 0.5,
-        # e.MOVED_DOWN: 0.5,
-        # e.MOVED_LEFT: 0.5,
-        # e.MOVED_RIGHT: 0.5,
-        e.INVALID_ACTION: -30,
-        e.WAITED: -30,
-        # e.BOMB_DROPPED: -2,  # Dropped a bomb
-        # e.CRATE_DESTROYED: 10,  # Destroyed a crate
-        # e.KILLED_SELF: -20,  # Killed itself
-        # e.KILLED_OPPONENT: 20  # Killed an opponent
+        e.MOVED_UP: 0.5,
+        e.MOVED_DOWN: 0.5,
+        e.MOVED_LEFT: 0.5,
+        e.MOVED_RIGHT: 0.5,
+        e.INVALID_ACTION: -10,
+        e.WAITED: -5,
+
         #e.CRATE_DESTROYED:
     }
-    reward_sum = sum(game_rewards.get(event, 0) for event in events)
-    # reward_sum = 0
-    # for event in events:
-    #     if event in game_rewards:
-    #         reward_sum += game_rewards[event]
+    reward_sum = 0
+    for event in events:
+        if event in game_rewards:
+            reward_sum += game_rewards[event]
     self.logger.info(f"Awarded {reward_sum} for events {', '.join(events)}")
     return reward_sum
-
