@@ -1,12 +1,13 @@
-2023-08-19 15:23:36,742 [my_agent_bomberman_code] INFO: Setting up model from scratch.
-2023-08-19 15:23:36,820 [my_agent_bomberman_code] DEBUG: Querying model for action.
-2023-08-19 15:23:36,820 [my_agent_bomberman_code] DEBUG: step:1
-2023-08-19 15:23:36,820 [my_agent_bomberman_wrapper] ERROR: argument of type 'bool' is not iterable
+2023-08-29 22:14:06,011 [my_agent_bomberman_code] INFO: Setting up model from scratch.
+2023-08-29 22:14:06,948 [my_agent_bomberman_code] DEBUG: Querying model for action.
+2023-08-29 22:14:06,948 [my_agent_bomberman_code] DEBUG: step:1
+2023-08-29 22:14:06,951 [my_agent_bomberman_wrapper] ERROR: _vhstack_dispatcher() takes 1 positional argument but 2 were given
 Traceback (most recent call last):
-  File "F:\Summer semester 2023\Machine Learning Essentials\Exercise\Final\bomberman_rl-master\agents.py", line 248, in process_event
+  File "D:\我的文件\研究生课程\machine learning essentials\MLE_Final-main\agents.py", line 248, in process_event
     event_result = getattr(module, event_name)(self.fake_self, *event_args)
-  File "F:\Summer semester 2023\Machine Learning Essentials\Exercise\Final\bomberman_rl-master\agent_code\my_agent_bomberman\callbacks.py", line 70, in act
+  File "D:\我的文件\研究生课程\machine learning essentials\MLE_Final-main\agent_code\my_agent_bomberman\callbacks.py", line 70, in act
     self.logger.debug(f'feature:{state_to_features(game_state)}')
-  File "F:\Summer semester 2023\Machine Learning Essentials\Exercise\Final\bomberman_rl-master\agent_code\my_agent_bomberman\stateTofeatures.py", line 35, in state_to_features
-    if bombholder == 0 or 0 in bomber_mans:
-TypeError: argument of type 'bool' is not iterable
+  File "D:\我的文件\研究生课程\machine learning essentials\MLE_Final-main\agent_code\my_agent_bomberman\stateTofeatures.py", line 84, in state_to_features
+    game_feature = np.hstack(game_feature, count_down)
+  File "<__array_function__ internals>", line 179, in hstack
+TypeError: _vhstack_dispatcher() takes 1 positional argument but 2 were given

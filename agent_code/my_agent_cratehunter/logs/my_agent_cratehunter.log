@@ -1,12 +1,69 @@
-2023-09-09 11:08:02,821 [my_agent_cratehunter_code] INFO: Setting up model from scratch.
-2023-09-09 11:08:02,892 [my_agent_cratehunter_wrapper] ERROR: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices
+2023-09-10 16:25:12,332 [my_agent_cratehunter_code] INFO: Setting up model from scratch.
+2023-09-10 16:25:12,860 [my_agent_cratehunter_code] DEBUG: Querying model for action.
+2023-09-10 16:25:12,861 [my_agent_cratehunter_code] DEBUG: prediction:[[0.16598694 0.15948279 0.17934881 0.15929213 0.17218915 0.16370016]]
+2023-09-10 16:25:12,861 [my_agent_cratehunter_code] DEBUG: step:1
+2023-09-10 16:25:12,861 [my_agent_cratehunter_code] DEBUG: action:WAIT
+2023-09-10 16:25:12,862 [my_agent_cratehunter_code] DEBUG: Encountered game event(s) 'WAITED' in step 1
+2023-09-10 16:25:12,862 [my_agent_cratehunter_code] INFO: Awarded 0 for events WAITED
+2023-09-10 16:25:13,350 [my_agent_cratehunter_code] INFO: Awarded 0 for events WAITED
+2023-09-10 16:25:13,363 [my_agent_cratehunter_code] DEBUG: Querying model for action.
+2023-09-10 16:25:13,364 [my_agent_cratehunter_code] DEBUG: prediction:[[0.1657183  0.15925032 0.18085597 0.15925032 0.17195562 0.16296941]]
+2023-09-10 16:25:13,364 [my_agent_cratehunter_code] DEBUG: step:2
+2023-09-10 16:25:13,364 [my_agent_cratehunter_code] DEBUG: action:DOWN
+2023-09-10 16:25:13,365 [my_agent_cratehunter_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 2
+2023-09-10 16:25:13,365 [my_agent_cratehunter_code] INFO: Awarded 0.5 for events MOVED_DOWN
+2023-09-10 16:25:13,382 [my_agent_cratehunter_code] INFO: Awarded 0.5 for events MOVED_DOWN
+2023-09-10 16:25:13,470 [my_agent_cratehunter_code] DEBUG: Querying model for action.
+2023-09-10 16:25:13,470 [my_agent_cratehunter_code] DEBUG: prediction:[[0.16648975 0.1591702  0.18279083 0.1591702  0.17103855 0.16134048]]
+2023-09-10 16:25:13,470 [my_agent_cratehunter_code] DEBUG: step:3
+2023-09-10 16:25:13,470 [my_agent_cratehunter_code] DEBUG: action:UP
+2023-09-10 16:25:13,470 [my_agent_cratehunter_code] DEBUG: Encountered game event(s) 'MOVED_UP' in step 3
+2023-09-10 16:25:13,471 [my_agent_cratehunter_code] INFO: Awarded 0.5 for events MOVED_UP
+2023-09-10 16:25:13,485 [my_agent_cratehunter_code] INFO: Awarded 0.5 for events MOVED_UP
+2023-09-10 16:25:13,565 [my_agent_cratehunter_code] DEBUG: Querying model for action.
+2023-09-10 16:25:13,566 [my_agent_cratehunter_code] DEBUG: prediction:[[0.1658047  0.15907824 0.18323228 0.15907824 0.17129675 0.16150986]]
+2023-09-10 16:25:13,566 [my_agent_cratehunter_code] DEBUG: step:4
+2023-09-10 16:25:13,566 [my_agent_cratehunter_code] DEBUG: action:DOWN
+2023-09-10 16:25:13,566 [my_agent_cratehunter_code] DEBUG: Encountered game event(s) 'MOVED_DOWN' in step 4
+2023-09-10 16:25:13,566 [my_agent_cratehunter_code] INFO: Awarded 0.5 for events MOVED_DOWN
+2023-09-10 16:25:13,580 [my_agent_cratehunter_code] INFO: Awarded 0.5 for events MOVED_DOWN
+2023-09-10 16:25:13,664 [my_agent_cratehunter_code] DEBUG: Querying model for action.
+2023-09-10 16:25:13,664 [my_agent_cratehunter_code] DEBUG: prediction:[[0.16717519 0.15917245 0.1839268  0.15917245 0.17038168 0.16017142]]
+2023-09-10 16:25:13,664 [my_agent_cratehunter_code] DEBUG: step:5
+2023-09-10 16:25:13,664 [my_agent_cratehunter_code] DEBUG: action:RIGHT
+2023-09-10 16:25:13,664 [my_agent_cratehunter_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 5
+2023-09-10 16:25:13,664 [my_agent_cratehunter_code] INFO: Awarded -15 for events INVALID_ACTION
+2023-09-10 16:25:13,675 [my_agent_cratehunter_code] INFO: Awarded -15 for events INVALID_ACTION
+2023-09-10 16:25:13,766 [my_agent_cratehunter_code] DEBUG: Querying model for action.
+2023-09-10 16:25:13,766 [my_agent_cratehunter_code] DEBUG: prediction:[[0.1677037  0.159211   0.18423109 0.159211   0.17003179 0.15961142]]
+2023-09-10 16:25:13,766 [my_agent_cratehunter_code] DEBUG: step:6
+2023-09-10 16:25:13,766 [my_agent_cratehunter_code] DEBUG: action:DOWN
+2023-09-10 16:25:13,767 [my_agent_cratehunter_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 6
+2023-09-10 16:25:13,767 [my_agent_cratehunter_code] INFO: Awarded -15 for events INVALID_ACTION
+2023-09-10 16:25:13,777 [my_agent_cratehunter_code] INFO: Awarded -15 for events INVALID_ACTION
+2023-09-10 16:25:13,867 [my_agent_cratehunter_code] DEBUG: Querying model for action.
+2023-09-10 16:25:13,868 [my_agent_cratehunter_code] DEBUG: prediction:[[0.1683452  0.15920419 0.18440035 0.15920419 0.16964187 0.15920419]]
+2023-09-10 16:25:13,868 [my_agent_cratehunter_code] DEBUG: step:7
+2023-09-10 16:25:13,868 [my_agent_cratehunter_code] DEBUG: action:DOWN
+2023-09-10 16:25:13,868 [my_agent_cratehunter_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 7
+2023-09-10 16:25:13,868 [my_agent_cratehunter_code] INFO: Awarded -15 for events INVALID_ACTION
+2023-09-10 16:25:13,880 [my_agent_cratehunter_code] INFO: Awarded -15 for events INVALID_ACTION
+2023-09-10 16:25:13,973 [my_agent_cratehunter_code] DEBUG: Querying model for action.
+2023-09-10 16:25:13,974 [my_agent_cratehunter_code] DEBUG: prediction:[[0.16901638 0.15912123 0.18442893 0.15912123 0.16919097 0.15912123]]
+2023-09-10 16:25:13,974 [my_agent_cratehunter_code] DEBUG: step:8
+2023-09-10 16:25:13,974 [my_agent_cratehunter_code] DEBUG: action:BOMB
+2023-09-10 16:25:13,974 [my_agent_cratehunter_code] DEBUG: Encountered game event(s) 'BOMB_DROPPED' in step 8
+2023-09-10 16:25:13,974 [my_agent_cratehunter_code] INFO: Awarded 5 for events BOMB_DROPPED
+2023-09-10 16:25:13,990 [my_agent_cratehunter_code] INFO: Awarded 5 for events BOMB_DROPPED
+2023-09-10 16:25:14,072 [my_agent_cratehunter_code] DEBUG: Choosing action purely at random.
+2023-09-10 16:25:14,073 [my_agent_cratehunter_code] DEBUG: Encountered game event(s) 'INVALID_ACTION' in step 9
+2023-09-10 16:25:14,073 [my_agent_cratehunter_code] INFO: Awarded -15 for events INVALID_ACTION
+2023-09-10 16:25:14,085 [my_agent_cratehunter_wrapper] ERROR: None is not in list
 Traceback (most recent call last):
-  File "F:\Summer semester 2023\Machine Learning Essentials\Exercise\Final\bomberman_rl-master\agents.py", line 248, in process_event
+  File "D:\我的文件\研究生课程\machine learning essentials\MLE_Final-main\agents.py", line 248, in process_event
     event_result = getattr(module, event_name)(self.fake_self, *event_args)
-  File "F:\Summer semester 2023\Machine Learning Essentials\Exercise\Final\bomberman_rl-master\agent_code\my_agent_cratehunter\callbacks.py", line 63, in act
-    prediction = F.softmax(self.model.forward(game_state)).detach().numpy()
-  File "F:\Summer semester 2023\Machine Learning Essentials\Exercise\Final\bomberman_rl-master\agent_code\my_agent_cratehunter\Model.py", line 36, in forward
-    x = T.tensor(state_to_features(x)).float()
-  File "F:\Summer semester 2023\Machine Learning Essentials\Exercise\Final\bomberman_rl-master\agent_code\my_agent_cratehunter\stateTofeatures.py", line 25, in state_to_features
-    _, _, bombholder, (x_self, y_self) = game_state["self"]
-IndexError: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices
+  File "D:\我的文件\研究生课程\machine learning essentials\MLE_Final-main\agent_code\my_agent_cratehunter\train.py", line 56, in game_events_occurred
+    self.model.train_step(old_game_state, self_action, new_game_state, reward_from_events(self, events))
+  File "D:\我的文件\研究生课程\machine learning essentials\MLE_Final-main\agent_code\my_agent_cratehunter\Model.py", line 56, in train_step
+    target = T.tensor(ACTIONS.index(act_rule(old_state)), dtype=T.long).unsqueeze(0)
+ValueError: None is not in list
