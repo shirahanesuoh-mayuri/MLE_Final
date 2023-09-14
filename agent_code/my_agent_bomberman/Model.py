@@ -57,24 +57,6 @@ class DQN(nn.Module):
                 self.optimizer.step()
 
 
-# class Double_Q_Net(nn.Module):
-#     def __init__(self, featuren_in, output):
-#         super(Double_Q_Net, self).__init__()
-
 class Double_Q_Net(nn.Module):
     def __init__(self, featuren_in, output):
         super(Double_Q_Net, self).__init__()
-
-        self.linear0 = nn.Linear(in_features=featuren_in, out_features=64)
-        self.linear1 = nn.Linear(in_features=64, out_features=32)
-        self.linear2 = nn.Linear(in_features=32, out_features=output)
-
-        self.relu = nn.ReLU()
-
-    def forward(self, x):
-        x = state_to_features(x)
-
-        x = self.relu(self.linear0(x))
-        x = self.relu(self.linear1(x))
-        x = self.relu(self.linear2(x))
-        return x

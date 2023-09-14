@@ -63,16 +63,10 @@ def act(self, game_state: dict) -> str:
         return action
     #prediction = F.softmax(self.model.forward(game_state)).detach().numpy()
     #action = np.random.choice(ACTIONS, p=prediction.flatten())
-    action = np.random.choice(ACTIONS, p=[.125, .125, .125, .125, .1, .4])
+    action = np.random.choice(ACTIONS, p=[.215, .215, .215, .215, .1, .04])
     self.logger.debug("Querying model for action.")
-    #self.logger.debug(f'prediction:{prediction}')
-    self.logger.debug(f'step:{game_state["step"]}')
-    self.logger.debug(f'feature:{state_to_features(game_state)}')
+    #self.logger.debug(f'feature:{state_to_features(game_state)}')
 
-    #self.logger.debug(f'game state:\n{game_state["field"]}')
-    #self.logger.debug(f'coins:{game_state["coins"]}')
-    #self.logger.debug(f'self: {game_state["self"][3]}')
-    self.logger.debug(f'action:{action}')
 
 
 
