@@ -1,1 +1,2 @@
-solve task 4.1 with RL
+这个agent实现4.1的寻路功能
+soft_max 选择权重
