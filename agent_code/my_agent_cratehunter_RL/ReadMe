@@ -1,1 +1,2 @@
-RL type of T4.2
+这个agent实现4.2的寻路功能
+soft_max 选择权重
